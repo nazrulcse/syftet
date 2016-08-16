@@ -684,8 +684,8 @@
             <div class="container footer-section">
                 <div class="row">
                     <div class="col-md-4 footer-section-col-left">
-                        <img width="113" height="25" alt="logo_white_big" src="http://127.0.0.1/wp-content/themes/syftet/images/logo_syftet_white.png">
-                        <ul class="tweet">
+                        <img width="113" height="25" alt="logo_white_big" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet_white.png">
+                        <ul class="tweet company-address">
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-map-marker"></span>
                                 <span class="tweet_text">
@@ -698,7 +698,9 @@
                             </li>
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-envelope"></span>
-                                <span class="tweet_text">Mail_link</span>
+                                <span class="tweet_text">
+                                    <a href="mail_to:info@syftet.com"> info@syftet.com </a>
+                                </span>
                             </li>
                         </ul>
 
@@ -708,20 +710,10 @@
 
                     <div class="col-md-4 footer-section-col-mid footer-title tweet-section">
                         <h3>Tweets</h3>
-                        <ul class="tweet">
-                            <li>
-                                <span class="font_awesome3 jtwt_tweet"></span>
-                                <span class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>
-                            </li>
-                            <li>
-                                <span class="font_awesome3 jtwt_tweet"></span>
-                                <span class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>
-                            </li>
-                        </ul>
                     </div>
                     <div class="col-md-4 footer-section-col-right footer-title">
                         <div class="">
-                            <h3>Follow Us</h3>
+                            <h3>Follow Us On</h3>
                             <div class="recent_work">
                                 <div class="recent_image">
                                     <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg"></a>

@@ -25,3 +25,13 @@
     text-align: justify;
     line-height: 20px;
 }
+
+.company-address {
+  text-align: left;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.company-address li {
+    padding: 6px 0;
+}
