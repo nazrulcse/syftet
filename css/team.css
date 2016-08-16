@@ -1,0 +1,181 @@
+.reset-margin{
+    margin: 50px;
+}
+
+.meet-member {
+    background-color: #f6f6f6;
+    background-image: url("../images/team/header_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #d2d3d4;
+    border-top: 1px solid #d2d3d4;
+    clear: both;
+    height: 85px;
+    padding: 0;
+}
+
+.meet-member-title-row {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+
+.syftet-modal h1, .syftet-page-title-bar h1, .syftet-widget-area h1, .post-content h1, .woocommerce-success-message .msg {
+    font-family: "museo-slab-300";
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.45;
+}
+
+.syftet-page-title-bar h1 {
+    font-size: 18px;
+    line-height: normal;
+}
+
+.syftet-page-title-bar h1, .syftet-page-title-bar h3 {
+    color: #343333;
+}
+
+.entry-title {
+    font-family: f_conv_delicatesans_bold,sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    padding-bottom: 0;
+    padding-top: 5px;
+    text-align: left;
+    margin-left: -20px;
+    width: 400px;
+}
+
+.syftet-title {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 0 31px;
+    overflow: hidden;
+}
+
+.team-member-title{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.team-member-title h2{
+    margin: 0;
+    float: left;
+    clear: both;
+    font-family: f_museo_slab_3, arial, helvetica, sans-serif, sans-serif;
+}
+
+.title-seperator{
+    float: left;
+    clear: both;
+    padding-left: 5px;
+}
+
+.title-separatorx {
+    border: 0 solid #e7e6e6;
+    box-sizing: content-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    height: 6px;
+}
+
+.syftet-row {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.syftet-one-third {
+    width: 30.6666%;
+}
+
+.syftet-layout-column {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 4%;
+    position: relative;
+}
+
+.syftet-column-last {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.syftet-person .person-image-container {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: bottom;
+    z-index: 1;
+    opacity: 0.75;
+}
+
+.person-image-container img :hover{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    color: red;
+}
+
+.team-person-desc {
+    margin-top: 25px;
+}
+
+.person-author {
+    display: table;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.person-author-wrapper{
+    font-family: "museo-slab-300";
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.43;
+}
+
+.syftet-social-networks{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    max-width: 50%;
+    text-align: right;
+}
+
+.person-desc h2 {
+    font-family: "f_aleijadinho",arial,helvetica,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.person-desc p{
+    font-family: f_museo_slab_3, arial, helvetica, sans-serif;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.person-name, .person-title {
+    font-family: f_museo_slab_3,arial,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.person-content{
+    font-family: f_museo_slab_3,arial,helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
