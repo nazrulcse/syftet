@@ -9,6 +9,7 @@
     <link href="<?php bloginfo('stylesheet'); ?>" rel="stylesheet"/><!---wordpress stylesheet--->
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/syftet.css" rel="stylesheet"/><!---main stylesheet--->
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/team.css" rel="stylesheet"/>
+    <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/footer.css" rel="stylesheet"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
@@ -74,7 +75,7 @@
                             requested by our users. You can count on us.</p>
                     </div>
                     <div class="col-md-6 content3_image ">
-                        <img style="width: 100%;" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/macbook.png">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/macbook.png">
                     </div>
                 </div>
                 <div class="col-md-12 row">
@@ -114,26 +115,12 @@
                         of website. No two versions of Syftet will ever look the same.</p>
                 </div>
                 <div class="separator"></div>
-                <div class="content4_image row">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/combo_text.jpg"/>
-                </div>
+<!--                <div class="content4_image row">-->
+<!--                    <img src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/combo_text.jpg"/>-->
+<!--                </div>-->
             </div>
 
         </div>
-        <div class="content5">
-            <div class="content5_content">
-                <div class="content5_text">
-                    <div class="clear"></div>
-                    <h2>Some information about our services</h2>
-                    <p>
-                        Syftet is loaded with useful features, each one with its own meaningful purpose. We listen to our
-                        users and integrate their feature requests on a regular basis. Syftet is not only built by us,
-                        but also by our users.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="content6_image"></div>
         <div class="syftet-row clearfix">
             <div class="syftet-one-third syftet-layout-column">
                 <div class="syftet-person">
@@ -340,12 +327,14 @@
             <div class="container">
                 <div class="content10_text">
                     <h2>Aim of Company</h2>
-                    <p>Many themes claim to have a quick setup, but leave you dealing with several XML files to manually
+                    <p>
+                        Many themes claim to have a quick setup, but leave you dealing with several XML files to manually
                         import. Who wants to do that? We sure don’t. Syftet truly offers a quick, easy setup. Install the
                         theme, click the demo content button and you receive a demo setup of pages, post, sliders,
                         sidebars, widgets, theme options and more. It doesn’t get any easier, our demo content importer
-                        is a beautiful thing.</p>
-                    <div class="content10_box"><span>WHAT ELSE YOU GOT?</span></div>
+                        is a beautiful thing.
+                    </p>
+<!--                    <div class="content10_box"><span>WHAT ELSE YOU GOT?</span></div>-->
                 </div>
 
                 <div class="content10_image">
@@ -469,7 +458,7 @@
                 <div class="content17_text">
                     <h1>Some information about our Portfolio</h1>
                 </div>
-                <div class="content17_box"><span>BUY Syftet NOW</span></div>
+                <div class="content17_box"><span>Syftet Company</span></div>
             </div>
         </div>
         <div class="content4_content">
@@ -681,94 +670,172 @@
 <!--            </div>-->
         </div>
 
-        <div class="meet-member meet-member-title-bar-left">
-            <div class="meet-member-title-row">
-                <div class="syftet-page-title-wrapper" style="opacity: 0.847059;">
-                    <div class="syftet-page-title-captions">
-                        <h1 class="entry-title">Meet The Member</h1>
+        
+        <div class="location-section">
+            <div class="location-title container">
+                <h1>Location</h1>
+            </div>
+        </div>
+        <div class="fluid-container location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5493680369705!2d90.36640315048066!3d23.834618291395113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c149ddd3e7d9%3A0xcd5e915ea87ad810!2sSyftet+IT!5e0!3m2!1sen!2sbd!4v1471338574462" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="footer-warraper">
+            <div class="container footer-section">
+                <div class="row">
+                    <div class="col-md-4 footer-section-col-left">
+                        <img width="113" height="25" alt="logo_white_big" src="http://127.0.0.1/wp-content/themes/syftet/images/logo_syftet_white.png">
+                        <ul class="tweet">
+                            <li>
+                                <span class="font_awesome3 jtwt_tweet fa fa-map-marker"></span>
+                                <span class="tweet_text">
+                                    Flat No: 601,House No: 262, Road No: 3, Mirpur DOHS, Dhaka 1216
+                                </span>
+                            </li>
+                            <li>
+                                <span class="font_awesome3 jtwt_tweet fa fa-phone"></span>
+                                <span class="tweet_text">+8801722647240</span>
+                            </li>
+                            <li>
+                                <span class="font_awesome3 jtwt_tweet fa fa-envelope"></span>
+                                <span class="tweet_text">Mail_link</span>
+                            </li>
+                        </ul>
+
                     </div>
+
+
+
+                    <div class="col-md-4 footer-section-col-mid footer-title tweet-section">
+                        <h3>Tweets</h3>
+                        <ul class="tweet">
+                            <li>
+                                <span class="font_awesome3 jtwt_tweet"></span>
+                                <span class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>
+                            </li>
+                            <li>
+                                <span class="font_awesome3 jtwt_tweet"></span>
+                                <span class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 footer-section-col-right footer-title">
+                        <div class="">
+                            <h3>Follow Us</h3>
+                            <div class="recent_work">
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port12-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port18-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port19-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port15-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port11-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port10-66x66.jpg"></a>
+                                </div>
+                                <div class="recent_image">
+                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port17-66x66.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!--        <div class="reset-margin"></div>-->
-        <div class="content18">
-            <div class="content18_content">
-                <div class="content_content18">
-                    <img width="113" height="25" alt="logo_white_big" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet_white.png">
-                    <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scriptaset patrioque scribentur, at
-                        pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum
-                        tation et his. At vix scripta patrioque scribentur...
-                    </p>
-                </div>
+        
+        
+        
+        
+<!--        <div class="footer-warraper">-->
+<!--            <div class="footer-section container">-->
+<!--                <div class="content_content18">-->
+<!--                    <img width="113" height="25" alt="logo_white_big" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/logo_syftet_white.png">-->
+<!--                    <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scriptaset patrioque scribentur, at-->
+<!--                        pro fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum-->
+<!--                        tation et his. At vix scripta patrioque scribentur...-->
+<!--                    </p>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="content_content18">-->
+<!--                    <h3>Recent Posts</h3>-->
+<!--                    <ul class="content_link">-->
+<!--                        <li><a href="#"><span>Recent Post one</span></a></li>-->
+<!--                        <li><a href="#"><span>Recent Post tow</span></a></li>-->
+<!--                        <li><a href="#"><span>Recent Post three</span></a></li>-->
+<!--                        <li><a href="#"><span>Recent Post four</span></a></li>-->
+<!--                        <li><a href="#"><span>Recent Post five</span></a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="content_content18">-->
+<!--                    <h3>Recent Tweets</h3>-->
+<!--                    <ul class="tweet">-->
+<!--                        <li>-->
+<!--                            <span class="font_awesome3 jtwt_tweet"></span>-->
+<!--                            <span-->
+<!--                                class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="font_awesome3 jtwt_tweet"></span>-->
+<!--                            <span-->
+<!--                                class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="content_content18">-->
+<!--                    <h3>Recent Works</h3>-->
+<!--                    <div class="recent_work">-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port21-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port12-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port18-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port19-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port15-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port11-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port10-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="recent_image">-->
+<!--                            <a href="#"><img width="60" height="60" src="--><?php //echo esc_url(get_template_directory_uri()); ?><!--/images/port17-66x66.jpg"></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
 
-                <div class="content_content18">
-                    <h3>Recent Posts</h3>
-                    <ul class="content_link">
-                        <li><a href="#"><span>Recent Post one</span></a></li>
-                        <li><a href="#"><span>Recent Post tow</span></a></li>
-                        <li><a href="#"><span>Recent Post three</span></a></li>
-                        <li><a href="#"><span>Recent Post four</span></a></li>
-                        <li><a href="#"><span>Recent Post five</span></a></li>
-                    </ul>
-                </div>
-
-                <div class="content_content18">
-                    <h3>Recent Tweets</h3>
-                    <ul class="tweet">
-                        <li>
-                            <span class="font_awesome3 jtwt_tweet"></span>
-                            <span
-                                class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>
-                        </li>
-                        <li>
-                            <span class="font_awesome3 jtwt_tweet"></span>
-                            <span
-                                class="tweet_text"> @AspectEleven  Thank you Andrew, we appreciate hearing that!</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="content_content18">
-                    <h3>Recent Works</h3>
-                    <div class="recent_work">
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port21-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port12-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port18-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port19-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port15-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port11-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port10-66x66.jpg"></a>
-                        </div>
-                        <div class="recent_image">
-                            <a href="#"><img width="60" height="60" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/port17-66x66.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+        
         <div class="content19">
             <div class="content19_content">
                 <div class="content_content19">
                     <div class="copy_right">
                         Copyright 2016- Syftet Theme by Syftet | All Rights Reserved | Powered by WordPress
                     </div>
-                    <div class="social">
-                        <a class="font_awesome4 fb" href="#"></a>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -788,7 +855,7 @@
             var div_top = $(".content2_image").offset().top - $(".header").offset().top
             if (scroll >= 50) {
                 $(".header").stop().animate({
-                    height: "65px"
+                    height: "85px"
                 }, 100, function () {
 
                     // Animation complete.

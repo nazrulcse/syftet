@@ -1,0 +1,27 @@
+.footer-title h3{
+    color: #8c8989;
+    font-family: f_aleijadinho,arial,serif;
+    letter-spacing: 2px;
+    margin-top: 0;
+    text-shadow: 1px 1px black;
+}
+
+.tweet-section{
+    display: inline-block;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    padding-right: 10px;
+    vertical-align: top;
+
+}
+
+.tweet {
+    margin-left: 0;
+    padding-left: 0;
+    font-family: f_museo_slab_3, sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: justify;
+    line-height: 20px;
+}

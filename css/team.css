@@ -2,7 +2,7 @@
     margin: 50px;
 }
 
-.meet-member {
+.location-section {
     background-color: #f6f6f6;
     background-image: url("../images/team/header_bg.png");
     background-position: center center;
@@ -37,15 +37,12 @@
     color: #343333;
 }
 
-.entry-title {
+.location-title {
     font-family: f_conv_delicatesans_bold,sans-serif;
-    font-size: 35px;
-    font-weight: normal;
-    padding-bottom: 0;
-    padding-top: 5px;
-    text-align: left;
-    margin-left: -20px;
-    width: 400px;
+}
+
+.location-title h1{
+    opacity: 0.847059;
 }
 
 .syftet-title {
