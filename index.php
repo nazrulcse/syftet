@@ -28,7 +28,8 @@
     <div class="header">
         <div class="header_logo">
             <a href="<?php bloginfo('home'); ?>">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet.png" alt="" title="" id="wows_0"/>
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet.png" alt="" title=""
+                     id="wows_0"/>
             </a>
         </div>
         <div class="menu">
@@ -354,8 +355,17 @@
                             <h2>New Artist Release</h2>
 
                             <p>
-                                Since 2000, musical artists, models, and book authors worldwide have relied on New Artist
-                                Release to promote their talent to the world.
+                                Since 2000, musical artists, models, and book authors worldwide have relied on New
+                                Artist Release to promote their talent to the world.
+                            </p>
+
+                            <p>
+                                <b>Technology:</b> Rubu on Rails, Mysql, HTML5, Ajax, Stripe Payment Gateway
+                            </p>
+
+                            <p>
+                                <b>URL:</b> <a href="http://newartistrealese.herokuapp.com" target="_blank">
+                                    http://newartistrealese.herokuapp.com </a>
                             </p>
                         </div>
                     </div>
@@ -368,12 +378,21 @@
                             <!--                        <img class="person-img img-responsive" src="http://Syftet.theme-syftet.com/wp-content/uploads/2012/08/team2.jpg">-->
                         </div>
                         <div class="person-desc">
-                            <div class="person-author">
+                            <div class="person-authorxx">
                                 <h2>Shyftn</h2>
 
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                    responsive mode can easily be turned on or off in the theme options panel!
+                                    Shyftn is a marketplace for listing and renting off road vehicles (ORV) with your
+                                    friends and peers alike. Our main focus and goal is to provide everyone with an easy
+                                    and affordable way to experience the thrill of off road riding
+                                </p>
+                                <p>
+                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment Gateway
+                                </p>
+
+                                <p>
+                                    <b>URL:</b> <a href="https://www.shyftn.com" target="_blank">
+                                        https://www.shyftn.com </a>
                                 </p>
                             </div>
                         </div>
@@ -391,7 +410,8 @@
                                 <h2>SRCL Group</h2>
 
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And the
+                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
+                                    the
                                     responsive mode can easily be turned on or off in the theme options panel!
                                 </p>
                             </div>
@@ -425,7 +445,8 @@
                                 <h2>Tangail Enterprise</h2>
 
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And the
+                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
+                                    the
                                     responsive mode can easily be turned on or off in the theme options panel!
                                 </p>
                             </div>
@@ -443,7 +464,8 @@
                                 <h2>Processflow</h2>
 
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And the
+                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
+                                    the
                                     responsive mode can easily be turned on or off in the theme options panel!
                                 </p>
                             </div>
@@ -635,7 +657,8 @@
                                            href="https://plus.google.com/u/0/108851144385462334066/posts">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/tanvir-hasan-b2135482">
+                                        <a class="btn btn-default"
+                                           href="https://www.linkedin.com/in/tanvir-hasan-b2135482">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
