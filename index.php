@@ -92,7 +92,7 @@
                             <div class="counter text-center">
                                 <span class="counter_no">92%</span>
 
-                                <p class="counter_txt">Test Code Coverage for Clients Project</p>
+                                <p class="counter_txt">Test Code Coverage</p>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -494,7 +494,7 @@
                             <div class="person-author">
                                 <div class="person-author-wrapper">
                                     <span class="person-name">Md. Mahabubul Alam</span><br>
-                                    <span class="person-title">Developer</span>
+                                    <span class="person-title">Coo & Co-funder</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
