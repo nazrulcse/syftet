@@ -716,29 +716,36 @@
                             <h3>Follow Us On</h3>
                             <div class="recent_work">
                                 <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg"></a>
+                                    <a href="#" class="btn btn-default">
+<!--                                        <img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg">-->
+                                        <i class="fa fa-facebook fa-5x"></i>
+                                    </a>
                                 </div>
                                 <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port12-66x66.jpg"></a>
+                                    <a href="#" class="btn btn-default">
+                                        <i class="fa fa-facebook fa-5x"></i>
+                                    </a>
                                 </div>
                                 <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port18-66x66.jpg"></a>
+                                    <a href="#" class="btn btn-default">
+                                        <i class="fa fa-facebook fa-5x"></i>
+                                    </a>
                                 </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port19-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port15-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port11-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port10-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port17-66x66.jpg"></a>
-                                </div>
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port19-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port15-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port11-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port10-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60" src="http://127.0.0.1/wp-content/themes/syftet/images/port17-66x66.jpg"></a>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </div>
