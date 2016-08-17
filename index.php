@@ -680,8 +680,8 @@
             </div>
         </div>
         <div class="fluid-container location-map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5493680369705!2d90.36640315048066!3d23.834618291395113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c149ddd3e7d9%3A0xcd5e915ea87ad810!2sSyftet+IT!5e0!3m2!1sen!2sbd!4v1471338574462"
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5493680369705!2d90.36640315048066!3d23.834618291395113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c149ddd3e7d9%3A0xcd5e915ea87ad810!2sSyftet+IT!5e0!3m2!1sen!2sbd!4v1471338574462"
                 width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
@@ -776,8 +776,7 @@
 <?php wp_footer(); ?>
 </body>
 
-
-<script language="javascript">
+<script type="text/javascript">
     $(function () {
 
         var header = $('.header');

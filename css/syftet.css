@@ -1009,5 +1009,13 @@ body{
     line-height: 20px;
 }
 
-.location-map{}
+.location-map {
+    position: relative;
+}
 
+.overlay {
+    width:100%;
+    min-height:500px;
+    position:absolute;
+    top:0;
+}
