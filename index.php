@@ -315,7 +315,7 @@
             <div class="content10">
                 <div class="container">
                     <div class="content10_text">
-                        <h2>Aim of Company</h2>
+                        <h2>About Syftet</h2>
 
                         <p>
                             Many themes claim to have a quick setup, but leave you dealing with several XML files to
@@ -328,11 +328,6 @@
                             is a beautiful thing.
                         </p>
                     </div>
-
-                    <div class="content10_image">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/pc-syftet1.png">
-                    </div>
-
                 </div>
             </div>
         </section>
