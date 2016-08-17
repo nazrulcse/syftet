@@ -12,23 +12,22 @@ body{
 .header{
     background-color: #fff;
     border-bottom-color: #e1e1e1;
-    height: 85px;
+    height: 70px;
     position: fixed;
     width: 100%;
     z-index: 5;
+    border-bottom: solid 2px #E0E1E3;
 }
 
 .header_logo{
     float: left;
-    padding: 35px 35px 35px 120px;
+    padding: 20px 35px 20px 120px;
     display: inline-block;
 }
 
 .menu {
     float: left;
     margin: 0;
-    padding-left: 40px;
-    width: 1000px;
 }
 
 .menu ul {
@@ -46,16 +45,16 @@ body{
 }
 
 .menu ul li a {
-    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
     color: #333;
     float: left;
-    font: 13px/90px f_museo_slab_3,sans-serif;
+    font: 14px/65px f_museo_slab_3,sans-serif;
     text-decoration: none;
 }
 
 .menu ul li a:hover{
-    color: #D6EAB2;
-    border-top: 3px #D6EAB2 solid;
+    color: #ABD062;
+    border-bottom: 3px #ABD062 solid;
 
 }
 .font_awesome{
@@ -154,16 +153,14 @@ body{
     border-bottom: 1px solid #e5e4e4;
     border-color: #e5e4e4;
     border-top: 1px solid #e5e4e4;
-    padding: 35px 0 15px;
+    padding: 10px 0 15px;
 }
 
 .content3_text{
-    display: inline-block;
-    float: left;
+    display: block;
+    margin: auto;
     margin-bottom: 20px;
-    margin-right: 4%;
     position: relative;
-    width: 48%;
 }
 
 .content3_text h2{
@@ -171,6 +168,7 @@ body{
     font-family: "f_aleijadinho",arial,helvetica,sans-serif;
     font-weight: normal;
     text-align: center;
+    display: block;
 }
 
 .content3_text p{
