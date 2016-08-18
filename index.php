@@ -46,7 +46,13 @@
 
     <div class="content">
         <div class="content1">
-            <div class="content1_header"></div>
+            <div class="overlay"></div>
+            <div class="content1_header" style="top: 40%; position: absolute; font-size: 60px; color: rgb(255, 255, 255); left: 0; right: 0; text-align: center; font-family: f_conv_delicatesans_bold,sans-serif;">
+                <div>
+                    Web and Mobile Development.
+                </div>
+                Based on your requirement.
+            </div>
         </div>
 
         <section id="recent-work">
@@ -316,11 +322,14 @@
                         <h2>About Syftet</h2>
 
                         <p>
-                            Many themes claim to have a quick setup, but leave you dealing with several XML files to
-                            manually
-                            import. Who wants to do that? We sure don’t. Syftet truly offers a quick, easy setup.
-                            Install the
-                            theme, click the demo content button and you receive a demo setup of pages, post, sliders,
+                            Syftet is a first growing software product and services company in Bangladesh.
+                            Our journey started at 2016, But in the short time Syftet successfully track record of
+                            delivering innovative and cost-effective technical services to customers in both Corporate
+                            and public sectors. We follow agile methodologies for developing software.
+                            We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java, Android </b>
+                            Who wants to do that? We sure don’t. Syftet truly offers a quick, easy setup.
+                            Install the theme, click the demo content button and you receive a demo setup of pages,
+                            post, sliders,
                             sidebars, widgets, theme options and more. It doesn’t get any easier, our demo content
                             importer
                             is a beautiful thing.
@@ -383,8 +392,10 @@
                                     friends and peers alike. Our main focus and goal is to provide everyone with an easy
                                     and affordable way to experience the thrill of off road riding
                                 </p>
+
                                 <p>
-                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment Gateway
+                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    Gateway
                                 </p>
 
                                 <p>
@@ -470,6 +481,26 @@
                     </div>
                 </div>
 
+                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                    <div class="syftet-person">
+                        <div class="person-image-container">
+                            <img class="person-img img-responsive img-thumbnail"
+                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/images/portfolio/romotiq.jpg">
+                        </div>
+                        <div class="person-desc">
+                            <div class="person-author">
+                                <h2>Romotiq</h2>
+
+                                <p>
+                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
+                                    the
+                                    responsive mode can easily be turned on or off in the theme options panel!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -493,7 +524,7 @@
                             <div class="person-author">
                                 <div class="person-author-wrapper">
                                     <span class="person-name">Md. Mahabubul Alam</span><br>
-                                    <span class="person-title">Coo & Co-founder</span>
+                                    <span class="person-title">COO & Co-founder</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
@@ -668,6 +699,42 @@
                         </div>
                     </div>
                 </div>
+                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                    <div class="syftet-person">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg" class="person-img img-responsive">
+
+                        <div class="person-desc">
+                            <div class="person-author team-person-desc">
+                                <div class="person-author-wrapper">
+                                    <span class="person-name">Mousumi Islam</span><br>
+                                    <span class="person-title">HR & Accountant </span>
+                                </div>
+                                <div class="syftet-social-networks boxed-icons">
+                                    <div class="syftet-social-networks-wrapper">
+                                        <a class="btn btn-default" href="https://www.facebook.com/tanvir.pias">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a class="btn btn-default" href="https://twitter.com/pias221191">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a class="btn btn-default"
+                                           href="https://plus.google.com/u/0/108851144385462334066/posts">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                        <a class="btn btn-default"
+                                           href="https://www.linkedin.com/in/tanvir-hasan-b2135482">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="person-content ">
+                                Mousumi Islam has completed his BSC in Accounting and Management
+                                from B.L Collage Khulna, Bangladesh on 2016.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -678,7 +745,8 @@
         </div>
         <div class="fluid-container location-map">
             <div class="overlay" onClick="style.pointerEvents='none'"></div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5493680369705!2d90.36640315048066!3d23.834618291395113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c149ddd3e7d9%3A0xcd5e915ea87ad810!2sSyftet+IT!5e0!3m2!1sen!2sbd!4v1471338574462"
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5493680369705!2d90.36640315048066!3d23.834618291395113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c149ddd3e7d9%3A0xcd5e915ea87ad810!2sSyftet+IT!5e0!3m2!1sen!2sbd!4v1471338574462"
                 width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
@@ -730,42 +798,6 @@
                                     </a>
                                 </ul>
                             </div>
-
-
-<!--                            <div class="recent_work">-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port12-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port18-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port19-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port15-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port11-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port10-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                                <div class="recent_image">-->
-<!--                                    <a href="#"><img width="60" height="60"-->
-<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port17-66x66.jpg"></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
                         </div>
                     </div>
 
@@ -794,7 +826,6 @@
         var header = $('.header');
         $(window).scroll(function () {
             var scroll = $(this).scrollTop();
-            var div_top = $(".content2_image").offset().top - $(".header").offset().top
             if (scroll >= 100) {
                 $(".header").stop().animate({
                     top: "-6px"
@@ -805,36 +836,7 @@
                 $(".header").stop().animate({
                     top: "0px"
                 }, 100, function () {
-
-                    // Animation complete.
                 });
-            }
-            //console.log($(".content2_image").offset().top - $(".header").offset().top);
-            if (div_top <= 300) {
-                //$(".content2_image").removeClass("hide").fadeIn();
-                //$(".content-2").removeClass('hide');
-//                var contents = $(".content2_image").stop().animate({
-//                    opacity: 1,
-//                    top: "+=50"
-//                });
-                //                      }).effect("slide", { direction: "down", mode : "show"}, 10000);
-                //                      $.queue(contents[0], "fx", function() {
-                //                        setTimeout(function()
-                //                          {
-                //                            $(".content2_image").effect("slide", { direction: "down", mode : "show"}, 10000);
-                //                          }, 100);
-                //                          $.dequeue(this);
-                //                      });
-                //                    setTimeout(function()
-                //                    {
-                //                        $(".content2_image").effect("slide", { direction: "down", mode : "show"}, 500);
-                //                    }, 500);
-                //                    $(".content2_image").fadeIn("slow");
-                //                    setTimeout(function()
-                //                    {
-                //                        $(".content2_image").effect("blind", { direction: "vertical", mode : "show" }, 490);
-                //                    }, 500);
-                //$(".content2_image").effect('slide', {direction: 'top', mode: 'show'}, 10000);
             }
         });
     });
