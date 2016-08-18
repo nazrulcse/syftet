@@ -14,8 +14,7 @@
 
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_museo_slab_3.css" rel="stylesheet"/>
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_aleijadinho.css" rel="stylesheet"/>
-    <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_conv_delicatesans_bold.css"
-          rel="stylesheet"/>
+    <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_conv_delicatesans_bold.css" rel="stylesheet"/>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <title>Syftet</title>
@@ -64,12 +63,10 @@
 
                         <p>Recently we are working on.</p>
 
-                        <div class="clear">
-                        </div>
                     </div>
                     <div class="separator"></div>
-                    <div class="content2_image">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/recent-works2.png"/>
+                    <div class="content2_image" ">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/recent-works.png"/>
                     </div>
                 </div>
             </div>
@@ -97,17 +94,17 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="counter">
-                                <span class="counter_no">9000</span>
+                            <div class="counter text-center">
+                                <span class="counter_no">92%</span>
 
-                                <p class="counter_txt">Wonderful Users &amp; Counting</p>
+                                <p class="counter_txt">Test Code Coverage</p>
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="counter">
-                                <span class="counter_no">9000</span>
+                            <div class="counter text-center">
+                                <span class="counter_no">12</span>
 
-                                <p class="counter_txt">Wonderful Users &amp; Counting</p>
+                                <p class="counter_txt">Project Completed</p>
                             </div>
                         </div>
                     </div>
@@ -253,9 +250,9 @@
                             <div class="service-title">
                                 <h2>
                                     <img
-                                        src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/ui-ux.png"
-                                        alt="UI/UX Design">
-                                    UI/UX Design
+                                        src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/ux-ui.png"
+                                        alt="UX-UI Design">
+                                    UX-UI Design
                                 </h2>
 
                                 <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
@@ -527,7 +524,7 @@
                             <div class="person-author">
                                 <div class="person-author-wrapper">
                                     <span class="person-name">Md. Mahabubul Alam</span><br>
-                                    <span class="person-title">Developer</span>
+                                    <span class="person-title">COO & Co-founder</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
@@ -763,7 +760,7 @@
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-map-marker"></span>
                                 <span class="tweet_text">
-                                    Flat No: 601,House No: 262, Road No: 3, Mirpur DOHS, Dhaka 1216
+                                    Flat No: 601, House No: 262, Road No: 3, Mirpur DOHS, Dhaka 1216
                                 </span>
                             </li>
                             <li>
@@ -787,6 +784,20 @@
                     <div class="col-md-4 footer-section-col-right footer-title">
                         <div class="">
                             <h3>Follow Us On</h3>
+
+                            <div class="footer-follow-us clearfix">
+                                <ul>
+                                    <a class="btn btn-default social-icon" href="https://www.facebook.com/syftetit">
+                                        <li><i class="fa fa-facebook fa-3x facebook-icon"></i></li>
+                                    </a>
+                                    <a class="btn btn-default social-icon" href="#">
+                                        <li><i class="fa fa-twitter fa-3x linkedin-icon"></i></li>
+                                    </a>
+                                    <a class="btn btn-default social-icon" href="#">
+                                        <li><i class="fa fa-linkedin fa-3x linkedin-icon"></i></li>
+                                    </a>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
