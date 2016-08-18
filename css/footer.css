@@ -35,3 +35,44 @@
 .company-address li {
     padding: 6px 0;
 }
+
+.footer-follow-us{}
+
+.footer-follow-us ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+.footer-follow-us ul a{
+    text-decoration: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.footer-follow-us ul a :last-child{
+    margin-right: 0;
+}
+
+.footer-follow-us ul a li{}
+
+.social-icon :hover{
+    background-color: #F1F1F1;
+    border-color: #F1F1F1;
+    color: white;
+}
+
+.facebook-icon {
+    color: #3b5998;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.twitter-icon{
+    color: #1DA1F2;
+}
+
+.linkedin-icon {
+    color: #159dc7;
+    padding-left: 2px;
+    padding-right: 2px;
+}

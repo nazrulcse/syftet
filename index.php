@@ -244,9 +244,9 @@
                             <div class="service-title">
                                 <h2>
                                     <img
-                                        src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/ui-ux.png"
-                                        alt="UI/UX Design">
-                                    UI/UX Design
+                                        src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/ux-ui.png"
+                                        alt="UX-UI Design">
+                                    UX-UI Design
                                 </h2>
 
                                 <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
@@ -493,7 +493,7 @@
                             <div class="person-author">
                                 <div class="person-author-wrapper">
                                     <span class="person-name">Md. Mahabubul Alam</span><br>
-                                    <span class="person-title">Coo & Co-funder</span>
+                                    <span class="person-title">Coo & Co-founder</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
@@ -692,7 +692,7 @@
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-map-marker"></span>
                                 <span class="tweet_text">
-                                    Flat No: 601,House No: 262, Road No: 3, Mirpur DOHS, Dhaka 1216
+                                    Flat No: 601, House No: 262, Road No: 3, Mirpur DOHS, Dhaka 1216
                                 </span>
                             </li>
                             <li>
@@ -717,40 +717,55 @@
                         <div class="">
                             <h3>Follow Us On</h3>
 
-                            <div class="recent_work">
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port12-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port18-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port19-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port15-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port11-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port10-66x66.jpg"></a>
-                                </div>
-                                <div class="recent_image">
-                                    <a href="#"><img width="60" height="60"
-                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port17-66x66.jpg"></a>
-                                </div>
+                            <div class="footer-follow-us clearfix">
+                                <ul>
+                                    <a class="btn btn-default social-icon" href="https://www.facebook.com/syftetit">
+                                        <li><i class="fa fa-facebook fa-3x facebook-icon"></i></li>
+                                    </a>
+                                    <a class="btn btn-default social-icon" href="#">
+                                        <li><i class="fa fa-twitter fa-3x linkedin-icon"></i></li>
+                                    </a>
+                                    <a class="btn btn-default social-icon" href="#">
+                                        <li><i class="fa fa-linkedin fa-3x linkedin-icon"></i></li>
+                                    </a>
+                                </ul>
                             </div>
+
+
+<!--                            <div class="recent_work">-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port21-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port12-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port18-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port19-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port15-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port11-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port10-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                                <div class="recent_image">-->
+<!--                                    <a href="#"><img width="60" height="60"-->
+<!--                                                     src="http://127.0.0.1/wp-content/themes/syftet/images/port17-66x66.jpg"></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
 
