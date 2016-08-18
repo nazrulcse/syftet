@@ -31,7 +31,12 @@
                      id="wows_0"/>
             </a>
         </div>
-        <div class="menu">
+        <div class="responsive-menu-logo">
+            <a href="javascript:void(0);">
+                <i class="fa fa-bars fa-2x"> </i>
+            </a>
+        </div>
+        <div class="menu hidden-mobile">
             <ul>
                 <li><a class="active" href="<?php bloginfo('home'); ?>">Home</a></li>
                 <li><a href="#recent-work"> Recent Work </a></li>
@@ -79,28 +84,28 @@
                         <h2> Client feedback &amp; project success story.</h2>
                     </div>
                     <div class="col-md-12 row">
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="counter text-center">
                                 <span class="counter_no">96%</span>
 
                                 <p class="">Project Success Rate</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="counter text-center">
                                 <span class="counter_no">98%</span>
 
                                 <p class="counter_txt"> Client Positive Feedback </p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="counter text-center">
                                 <span class="counter_no">92%</span>
 
                                 <p class="counter_txt">Test Code Coverage</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="counter text-center">
                                 <span class="counter_no">12</span>
 
@@ -128,7 +133,7 @@
             </div>
 
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="service-title person-desc">
                             <h2>
@@ -142,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -159,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -178,7 +183,7 @@
                 </div>
             </div>
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="service-title person-desc">
                             <h2>
@@ -192,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -209,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -228,7 +233,7 @@
                 </div>
             </div>
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="service-title person-desc">
                             <h2>
@@ -244,7 +249,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -262,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -281,7 +286,7 @@
                 </div>
             </div>
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="service-title person-desc">
                             <h2>
@@ -297,7 +302,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -350,7 +355,7 @@
             </div>
 
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -376,7 +381,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -406,7 +411,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -428,7 +433,7 @@
                 </div>
             </div>
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -442,7 +447,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -461,7 +466,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -481,7 +486,7 @@
                     </div>
                 </div>
 
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-image-container">
                             <img class="person-img img-responsive img-thumbnail"
@@ -515,7 +520,7 @@
             </div>
 
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/ziko.png"
                              class="person-img img-responsive">
@@ -551,7 +556,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/nazrul.png"
                              class="person-img img-responsive">
@@ -587,7 +592,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/rubel.png"
                              class="person-img img-responsive">
@@ -626,7 +631,7 @@
                 </div>
             </div>
             <div class="syftet-row clearfix">
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/asad.png"
                              class="person-img img-responsive">
@@ -662,7 +667,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column">
+                <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/pias.png"
                              class="person-img img-responsive">
@@ -699,7 +704,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="syftet-one-third syftet-layout-column syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg" class="person-img img-responsive">
 
@@ -837,6 +842,18 @@
                     top: "0px"
                 }, 100, function () {
                 });
+            }
+        });
+
+        $('.responsive-menu-logo a').click(function() {
+            var menu = $('.menu');
+            if(menu.is(":visible")) {
+                menu.addClass('hidden-mobile');
+                $(this).find('i').removeClass('fa-times').addClass('fa-bars')
+            }
+            else {
+                menu.removeClass('hidden-mobile');
+                $(this).find('i').addClass('fa-times').removeClass('fa-bars');
             }
         });
     });
