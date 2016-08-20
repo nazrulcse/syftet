@@ -55,12 +55,6 @@
 
 .footer-follow-us ul a li{}
 
-.social-icon :hover{
-    background-color: #F1F1F1;
-    border-color: #F1F1F1;
-    color: white;
-}
-
 .facebook-icon {
     color: #3b5998;
     padding-left: 7px;

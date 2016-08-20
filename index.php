@@ -589,47 +589,46 @@
                 </div>
                 <div class="syftet-one-third syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/rubel.png"
-                             class="person-img img-responsive">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg" class="person-img img-responsive">
 
-                        <div class="team-person-desc">
-                            <div class="person-author">
+                        <div class="person-desc">
+                            <div class="person-author team-person-desc">
                                 <div class="person-author-wrapper">
-                                    <span class="person-name">Abu Raihan Rubel</span><br>
-                                    <span class="person-title">Developer</span>
+                                    <span class="person-name">Mousumi Islam</span><br>
+                                    <span class="person-title">HR & Accountant </span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/aburaihan.rubel.cse">
+                                        <a class="btn btn-default" href="#">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/AbuRaihanRubel">
+                                        <a class="btn btn-default" href="#">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/118308593010279249355/posts">
+                                           href="#">
                                             <i class="fa fa-google"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://www.linkedin.com/in/abu-raihan-mohammad-rubel-7a4359105">
+                                           href="#">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="person-content ">
-                                Abu Raihan Rubel has completed his BSC in computer science and engineering
-                                from Mawlana Bhashani Science and Technology University, Bangladesh on 2015.
+                                Mousumi Islam has completed his BSC in Accounting and Management
+                                from B.L Collage Khulna, Bangladesh on 2016.
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <div class="syftet-row clearfix">
                 <div class="syftet-one-third syftet-layout-column">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/asad.png"
-                             class="person-img img-responsive">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/asad.png" class="person-img img-responsive">
 
                         <div class="person-desc">
                             <div class="person-author team-person-desc">
@@ -701,36 +700,37 @@
                 </div>
                 <div class="syftet-one-third syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg" class="person-img img-responsive">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/rubel.png"
+                             class="person-img img-responsive">
 
-                        <div class="person-desc">
-                            <div class="person-author team-person-desc">
+                        <div class="team-person-desc">
+                            <div class="person-author">
                                 <div class="person-author-wrapper">
-                                    <span class="person-name">Mousumi Islam</span><br>
-                                    <span class="person-title">HR & Accountant </span>
+                                    <span class="person-name">Abu Raihan Rubel</span><br>
+                                    <span class="person-title">Developer</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/tanvir.pias">
+                                        <a class="btn btn-default" href="https://www.facebook.com/aburaihan.rubel.cse">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/pias221191">
+                                        <a class="btn btn-default" href="https://twitter.com/AbuRaihanRubel">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/108851144385462334066/posts">
+                                           href="https://plus.google.com/u/0/118308593010279249355/posts">
                                             <i class="fa fa-google"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://www.linkedin.com/in/tanvir-hasan-b2135482">
+                                           href="https://www.linkedin.com/in/abu-raihan-mohammad-rubel-7a4359105">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="person-content ">
-                                Mousumi Islam has completed his BSC in Accounting and Management
-                                from B.L Collage Khulna, Bangladesh on 2016.
+                                Abu Raihan Rubel has completed his BSC in computer science and engineering
+                                from Mawlana Bhashani Science and Technology University, Bangladesh on 2015.
                             </div>
                         </div>
                     </div>
@@ -788,13 +788,13 @@
                             <div class="footer-follow-us clearfix">
                                 <ul>
                                     <a class="btn btn-default social-icon" href="https://www.facebook.com/syftetit">
-                                        <li><i class="fa fa-facebook fa-3x facebook-icon"></i></li>
+                                        <li><i class="fa fa-facebook fa-2x facebook-icon"></i></li>
                                     </a>
                                     <a class="btn btn-default social-icon" href="#">
-                                        <li><i class="fa fa-twitter fa-3x linkedin-icon"></i></li>
+                                        <li><i class="fa fa-twitter fa-2x linkedin-icon"></i></li>
                                     </a>
                                     <a class="btn btn-default social-icon" href="#">
-                                        <li><i class="fa fa-linkedin fa-3x linkedin-icon"></i></li>
+                                        <li><i class="fa fa-linkedin fa-2x linkedin-icon"></i></li>
                                     </a>
                                 </ul>
                             </div>
