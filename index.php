@@ -70,8 +70,8 @@
 
                     </div>
                     <div class="separator"></div>
-                    <div class="content2_image" ">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/recent-works.png"/>
+                    <div class="content2_image">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/recent-works.png">
                     </div>
                 </div>
             </div>
@@ -345,10 +345,9 @@
         </section>
 
         <section id="portfolio">
-            <div class="content4_content">
+            <div class="content4_content container">
                 <div class="content2_header">
                     <h1>Portfolio</h1>
-
                     <p>Making It The Most Trusted &amp; Complete WordPress Theme On The Market.</p>
                 </div>
                 <div class="separator"></div>
@@ -363,21 +362,26 @@
                             <!--                        <img class="" style="" src="http://Syftet.theme-syftet.com/wp-content/uploads/2012/08/team1.jpg">-->
                         </div>
                         <div class="person-desc">
-                            <h2>New Artist Release</h2>
+                            <div class="person-author">
+                                <h2>New Artist Release</h2>
 
-                            <p>
-                                Since 2000, musical artists, models, and book authors worldwide have relied on New
-                                Artist Release to promote their talent to the world.
-                            </p>
+                                <p>
+                                    Since 2000, musical artists, models, and book authors worldwide have relied on New
+                                    Artist Release to promote their talent to the world.
+                                </p>
+                                <p>
+                                    <b>Technology:</b>
+                                    Rubu on Rails, Mysql, HTML5, Ajax, Stripe Payment Gateway
+                                </p>
 
-                            <p>
-                                <b>Technology:</b> Rubu on Rails, Mysql, HTML5, Ajax, Stripe Payment Gateway
-                            </p>
+                                <p>
+                                    <b>URL:</b>
+                                    <a href="http://newartistrealese.herokuapp.com" target="_blank" class="url-link-responsive">
+                                        To visit New Artist Release.
+                                    </a>
+                                </p>
 
-                            <p>
-                                <b>URL:</b> <a href="http://newartistrealese.herokuapp.com" target="_blank">
-                                    http://newartistrealese.herokuapp.com </a>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -389,7 +393,7 @@
                             <!--                        <img class="person-img img-responsive" src="http://Syftet.theme-syftet.com/wp-content/uploads/2012/08/team2.jpg">-->
                         </div>
                         <div class="person-desc">
-                            <div class="person-authorxx">
+                            <div class="person-author">
                                 <h2>Shyftn</h2>
 
                                 <p>
@@ -404,8 +408,10 @@
                                 </p>
 
                                 <p>
-                                    <b>URL:</b> <a href="https://www.shyftn.com" target="_blank">
-                                        https://www.shyftn.com </a>
+                                    <b>URL:</b>
+                                    <a href="https://www.shyftn.com" target="_blank" class="url-link-responsive">
+                                        To visit Shyftn.
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -427,6 +433,17 @@
                                     the
                                     responsive mode can easily be turned on or off in the theme options panel!
                                 </p>
+                                <p>
+                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    Gateway
+                                </p>
+                                <p>
+                                    <b>URL:</b>
+                                    <a href="http://srclgroup.com" target="_blank" class="url-link-responsive">
+                                        To visit SRCL.
+                                    </a>
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -442,8 +459,20 @@
                         <div class="person-desc">
                             <h2>My Sales My Job</h2>
 
-                            <p>Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                responsive mode can easily be turned on or off in the theme options panel! </p>
+                            <p>
+                                Syftet is 100% responsive, each and every element you see is fully responsive. And the
+                                responsive mode can easily be turned on or off in the theme options panel!
+                            </p>
+                            <p>
+                                <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                Gateway
+                            </p>
+                            <p>
+                                <b>URL:</b>
+                                <a href="http://mysalemyjob.com/" target="_blank" class="url-link-responsive">
+                                    To visit My Sales My Job.
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -461,6 +490,16 @@
                                     Syftet is 100% responsive, each and every element you see is fully responsive. And
                                     the
                                     responsive mode can easily be turned on or off in the theme options panel!
+                                </p>
+                                <p>
+                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    Gateway
+                                </p>
+                                <p>
+                                    <b>URL:</b>
+                                    <a href="http://188.166.172.38/employees/sign_in" target="_blank" class="url-link-responsive">
+                                        To visit Tangail Enterprise.
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -481,6 +520,16 @@
                                     the
                                     responsive mode can easily be turned on or off in the theme options panel!
                                 </p>
+                                <p>
+                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    Gateway
+                                </p>
+                                <p>
+                                    <b>URL:</b>
+                                    <a href="http://processflow.herokuapp.com/" target="_blank" class="url-link-responsive">
+                                        To visit Processflow.
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -495,11 +544,20 @@
                         <div class="person-desc">
                             <div class="person-author">
                                 <h2>Romotiq</h2>
-
                                 <p>
                                     Syftet is 100% responsive, each and every element you see is fully responsive. And
                                     the
                                     responsive mode can easily be turned on or off in the theme options panel!
+                                </p>
+                                <p>
+                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    Gateway
+                                </p>
+                                <p>
+                                    <b>URL:</b>
+                                    <a href="#" target="_blank" class="url-link-responsive">
+                                        To visit Romotiq.
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -510,10 +568,9 @@
         </section>
 
         <section id="team">
-            <div class="content4_content">
+            <div class="content4_content container">
                 <div class="content2_header">
                     <h1>Our Valueable Team</h1>
-
                     <p>Making It The Most Trusted &amp; Complete WordPress Theme On The Market.</p>
                 </div>
                 <div class="separator"></div>
@@ -533,17 +590,17 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/mahabub.ziko">
+                                        <a class="btn btn-default" href="https://www.facebook.com/mahabub.ziko" target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/zikoku07">
+                                        <a class="btn btn-default" href="https://twitter.com/zikoku07" target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/100425517053881281580/posts">
+                                           href="https://plus.google.com/100425517053881281580/posts" target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/mahabubziko07">
+                                        <a class="btn btn-default" href="https://www.linkedin.com/in/mahabubziko07" target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -569,17 +626,17 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/mdnazrulislam.cse">
+                                        <a class="btn btn-default" href="https://www.facebook.com/mdnazrulislam.cse" target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                         <a class="btn btn-default" href="#">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/106988509265910539148/posts">
+                                           href="https://plus.google.com/u/0/106988509265910539148/posts" target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/nazrulcse07">
+                                        <a class="btn btn-default" href="https://www.linkedin.com/in/nazrulcse07" target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -638,22 +695,22 @@
                         <div class="person-desc">
                             <div class="person-author team-person-desc">
                                 <div class="person-author-wrapper">
-                                    <span class="person-name">Plabon Asad</span><br>
+                                    <span class="person-name">Md. Asaduzzaman</span><br>
                                     <span class="person-title">Developer</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/plabon.asad">
+                                        <a class="btn btn-default" href="https://www.facebook.com/plabon.asad" target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="#">
+                                        <a class="btn btn-default" href="https://twitter.com/Plabon_asad" target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/103764686291338308269/posts">
+                                           href="https://plus.google.com/u/0/103764686291338308269/posts" target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="#">
+                                        <a class="btn btn-default" href="https://www.linkedin.com/in/asad-plabon-6880a7127" target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -679,18 +736,18 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/tanvir.pias">
+                                        <a class="btn btn-default" href="https://www.facebook.com/tanvir.pias" target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/pias221191">
+                                        <a class="btn btn-default" href="https://twitter.com/pias221191" target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/108851144385462334066/posts">
+                                           href="https://plus.google.com/u/0/108851144385462334066/posts" target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://www.linkedin.com/in/tanvir-hasan-b2135482">
+                                           href="https://www.linkedin.com/in/tanvir-hasan-b2135482" target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -716,18 +773,18 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/aburaihan.rubel.cse">
+                                        <a class="btn btn-default" href="https://www.facebook.com/aburaihan.rubel.cse" target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/AbuRaihanRubel">
+                                        <a class="btn btn-default" href="https://twitter.com/AbuRaihanRubel" target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/118308593010279249355/posts">
+                                           href="https://plus.google.com/u/0/118308593010279249355/posts" target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://www.linkedin.com/in/abu-raihan-mohammad-rubel-7a4359105">
+                                           href="https://www.linkedin.com/in/abu-raihan-mohammad-rubel-7a4359105" target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -775,7 +832,7 @@
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-envelope"></span>
                                 <span class="tweet_text">
-                                    <a href="mail_to:info@syftet.com"> info@syftet.com </a>
+                                    <a href="mail_to:info@syftet.com" class="url-link-responsive"> info@syftet.com </a>
                                 </span>
                             </li>
                         </ul>
@@ -793,13 +850,13 @@
                             <div class="footer-follow-us clearfix">
                                 <ul>
                                     <a class="btn btn-default social-icon" href="https://www.facebook.com/syftetit">
-                                        <li><i class="fa fa-facebook fa-2x facebook-icon"></i></li>
+                                        <li><i class="fa fa-facebook facebook-icon fa-lg"></i></li>
                                     </a>
                                     <a class="btn btn-default social-icon" href="#">
-                                        <li><i class="fa fa-twitter fa-2x linkedin-icon"></i></li>
+                                        <li><i class="fa fa-twitter linkedin-icon fa-lg"></i></li>
                                     </a>
                                     <a class="btn btn-default social-icon" href="#">
-                                        <li><i class="fa fa-linkedin fa-2x linkedin-icon"></i></li>
+                                        <li><i class="fa fa-linkedin linkedin-icon fa-lg"></i></li>
                                     </a>
                                 </ul>
                             </div>

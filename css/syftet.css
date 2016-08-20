@@ -75,6 +75,8 @@ body{
     content: "";
 }
 
+
+
 .content1{
     background-image: url("../images/slider/main_new.jpg");
     background-repeat: no-repeat;
@@ -112,7 +114,6 @@ body{
 .content2_header p {
     font-family: f_museo_slab_3,sans-serif;
     font-size: 16px;
-    line-height: 10px;
     color: #333;
     padding-bottom: 10px;
     text-align: center;
@@ -1026,7 +1027,8 @@ body{
 }
 
 .person-desc {
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
+
 }
 
 .responsive-menu-logo {
@@ -1057,6 +1059,12 @@ body{
     right: 0;
     text-align: center;
     top: 40%;
+}
+
+.url-link-responsive{
+    word-break: break-all;
+    text-decoration: none !important;
+    color: #A0CE4E;
 }
 
  /* Responsive CSS */
