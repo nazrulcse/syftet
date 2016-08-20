@@ -94,7 +94,7 @@
 .syftet-layout-column {
     float: left;
     margin-bottom: 20px;
-    margin-right: 4%;
+    /*margin-right: 4%;*/
     position: relative;
 }
 
@@ -120,6 +120,10 @@
     height: 100%;
     font-weight: bold;
     color: red;
+}
+
+.syftet-person img {
+    margin: auto;
 }
 
 .team-person-desc {
