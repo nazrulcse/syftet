@@ -52,7 +52,7 @@
     <div class="content">
         <div class="content1">
             <div class="overlay"></div>
-            <div class="content1_header" style="top: 40%; position: absolute; font-size: 60px; color: rgb(255, 255, 255); left: 0; right: 0; text-align: center; font-family: f_conv_delicatesans_bold,sans-serif;">
+            <div class="content1_header top-header-text">
                 <div>
                     Web and Mobile Development.
                 </div>

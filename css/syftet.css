@@ -137,10 +137,6 @@ body{
     clear: both;
 }
 
-.content2_image{
-    padding-top: 35px;
-}
-
 .content2_image img{
     width: 100%;
 }
@@ -1052,6 +1048,17 @@ body{
     display: block;
 }
 
+.top-header-text {
+    color: rgb(255, 255, 255);
+    font-family: f_conv_delicatesans_bold,sans-serif;
+    font-size: 60px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 40%;
+}
+
  /* Responsive CSS */
 
 @media only screen and (max-width: 990px) {
@@ -1072,9 +1079,19 @@ body{
     .menu ul li:last-child {
         padding-right: 0;
     }
+
+    .top-header-text {
+        top: 30%;
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 720px) {
+
+    .top-header-text {
+        top: 30%;
+        font-size: 45px;
+    }
 
     .hidden-mobile {
         display: none !important;
