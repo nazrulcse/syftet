@@ -717,7 +717,7 @@
                                 </div>
                             </div>
                             <div class="person-content">
-                                Plabon Asad has completed his BSC in Mathematics
+                                Md. Asaduzzaman has completed his BSC in Mathematics
                                 from khulna university, Bangladesh on 2015.
                             </div>
                         </div>
@@ -869,7 +869,7 @@
         <div class="content19">
             <div class="content19_content">
                 <div class="content_content19">
-                    <div class="copy_right">
+                    <div class="copy_right container text-center">
                         Copyright &copy; 2016 Syftet Theme by Syftet | All Rights Reserved
                     </div>
 

@@ -251,7 +251,7 @@ body{
 }
 
 .content4_text{
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .content4_image{
@@ -655,7 +655,7 @@ body{
     background-color: #ffffff;
     padding-top: 30px;
     margin-bottom: -5px;
-     padding: 45px 0 65px;
+    padding: 45px 0 65px;
 }
 
 .content14_content{
@@ -733,7 +733,7 @@ body{
     background-color: #ffffff;
     padding-top: 30px;
     margin-bottom: -5px;
-     padding: 45px 0 65px;
+    padding: 45px 0 65px;
 }
 .content16_content{
     margin: 0 auto;
@@ -974,8 +974,6 @@ body{
 }
 
 .copy_right{
-    display: inline-block;
-    width:45%;
     font-size: 10px;
     color: #8c8989;
 }
@@ -1067,6 +1065,14 @@ body{
     color: #A0CE4E;
 }
 
+.padding-reset-left{
+    padding-left: 0px;
+}
+
+.padding-reset-right{
+    padding-right: 0px;
+}
+
  /* Responsive CSS */
 
 @media only screen and (max-width: 990px) {
@@ -1081,12 +1087,10 @@ body{
         padding-left: 10px;
     }
     .menu ul li {
-        padding-right: 20px;
+        padding-right: 12px;
     }
 
-    .menu ul li:last-child {
-        padding-right: 0;
-    }
+    .menu ul li:last-child {}
 
     .top-header-text {
         top: 30%;
