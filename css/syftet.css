@@ -52,11 +52,18 @@ body{
     text-decoration: none;
 }
 
-.menu ul li a:hover{
+.recent-menu{
     color: #ABD062;
     border-bottom: 3px #ABD062 solid;
-
 }
+
+.menu ul li a:hover{
+    color: #ABD062;
+}
+
+
+
+
 .font_awesome{
     display: inline-block;
     font-family: "FontAwesome";

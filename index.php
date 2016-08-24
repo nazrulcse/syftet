@@ -14,7 +14,8 @@
 
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_museo_slab_3.css" rel="stylesheet"/>
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_aleijadinho.css" rel="stylesheet"/>
-    <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_conv_delicatesans_bold.css" rel="stylesheet"/>
+    <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_conv_delicatesans_bold.css"
+          rel="stylesheet"/>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <title>Syftet</title>
@@ -56,7 +57,7 @@
                 <div>
                     Web and Mobile Development.
                 </div>
-                Based on your requirement.
+                Based on your requirements.
             </div>
         </div>
 
@@ -141,8 +142,11 @@
                                 Ruby On Rails
                             </h2>
 
-                            <p>Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                responsive mode can easily be turned on or off in the theme options panel!
+                            <p>
+                                To build a modern web application is daunting task. Ruby on Rails makes it much easier
+                                and more fun.
+                                It includes everything you need to build fantastic applications, and we have gratest
+                                Ruby on Rails team with friendly community.
                             </p>
                         </div>
                     </div>
@@ -157,9 +161,15 @@
                                     PHP
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    Server scripting language PHP have more powerful tools that is especially suited for
+                                    web development.
+                                    It is a widely-used, free, and efficient alternative to competitors such as
+                                    Microsoft's ASP.
+                                    We have an experienced team of PHP developers who have been working with different
+                                    PHP frameworks
+                                    (Laravel, Codeigniter) and CMS (WordPress, Magento).
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -174,9 +184,13 @@
                                     .Net
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    ".NET" can be used for any kind of app
+                                    type or workload where It has several key features that are attractive to many
+                                    developers, including automatic memory management and modern programming languages.
+                                    Our team provide great experience for you in ASP.net applications from WebForms to
+                                    different versions of MVC, WCF, WPF (web and mobile), EF, Web API.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -188,11 +202,14 @@
                         <div class="service-title person-desc">
                             <h2>
                                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/ios.png">
-                                IOS
+                                iOS
                             </h2>
 
-                            <p>Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                responsive mode can easily be turned on or off in the theme options panel!
+                            <p>
+                                iOS is the world’s most advanced mobile operating system, and it’s the foundation of
+                                iPhone, iPad, and iPod touch with an easy-to-use interface, amazing features, and
+                                security at its core. We will help you to give the freedom of mobility by developing
+                                mobile applications using iOS.
                             </p>
                         </div>
                     </div>
@@ -207,9 +224,12 @@
                                     Android
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    Android is a mobile operating system developed by Google, based on the Linux kernel
+                                    and designed primarily for touchscreen mobile devices such as smartphones and
+                                    tablets. For developing Android application based on your requirements Our team here
+                                    now to give a best support.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -224,9 +244,14 @@
                                     Node JS
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    "Node.js" a framework that’s been around since 2009, is making a big impact in web
+                                    programming circles with disciples in Microsoft, Yahoo, LinkedIn and PayPal,
+                                    developers have not only heard of the merits of "Node.js" but they’re either using
+                                    or learning it now. There are many great reasons to use "Node.js", regardless of
+                                    experience level. Our Syftet team are waiting for developed your requirements as
+                                    soon as possible.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -243,8 +268,14 @@
                                 Angular JS
                             </h2>
 
-                            <p>Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                responsive mode can easily be turned on or off in the theme options panel!
+                            <p>
+                                For declaring static documents, HTML is great, but it falters when we try to use it for
+                                declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary
+                                for your application. The resulting environment is extraordinarily expressive, readable,
+                                and quick to develop.
+                                Every feature can be modified or replaced by our valuable Syftet team to suit your
+                                unique
+                                development workflow and feature needs.
                             </p>
                         </div>
                     </div>
@@ -260,9 +291,15 @@
                                     UX-UI Design
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    A Good UX-UI Design experienced has highly conversion rates and more power to
+                                    enrich their product. In other words, it's nice to both the business side as well as
+                                    the people using it. In the Syftet we have some running idea list which we're
+                                    actively testing and writing exclusive stories about it.
+                                    In the long run, our goal is to build out a repository of evidence showing clearly
+                                    which ideas work better and which ones less so. We hope this will make life easier
+                                    for others.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -277,9 +314,12 @@
                                     Testing
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    Software testing can provide objective, independent information about the quality of
+                                    software and risk of its failure to users or sponsors. In the real world there no
+                                    product is 100% bug free. Syftet team of Test techniques include the process of
+                                    executing a program or application with the intent of finding software bugs.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -296,8 +336,11 @@
                                 Deployment
                             </h2>
 
-                            <p>Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                responsive mode can easily be turned on or off in the theme options panel!
+                            <p>
+                                Software deployment is all of the activities that make a software system available for
+                                use. We have vast experience of preparing server and deploy applications in the cloud.
+                                We worked different distributions of Linux in Amazon EC2, Linode, Rackspace, Heroku,
+                                GoDaddy, Brightbox and Site5.
                             </p>
                         </div>
                     </div>
@@ -313,9 +356,12 @@
                                     Maintenance
                                 </h2>
 
-                                <p>Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel! </p>
+                                <p>
+                                    Software maintenance is widely accepted part now a days, it stands for all the
+                                    modifications and updations done after the delivery of software product. We will be
+                                    there for you to maintain it – fixing the issues, implement new features, version
+                                    up-gradation and other necessary stuffs.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -331,7 +377,8 @@
                             Our journey started at 2016, But in the short time Syftet successfully track record of
                             delivering innovative and cost-effective technical services to customers in both Corporate
                             and public sectors. We follow agile methodologies for developing software.
-                            We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java, Android </b>
+                            We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java,
+                                Android </b>
                             Who wants to do that? We sure don’t. Syftet truly offers a quick, easy setup.
                             Install the theme, click the demo content button and you receive a demo setup of pages,
                             post, sliders,
@@ -376,7 +423,8 @@
 
                                 <p>
                                     <b>URL:</b>
-                                    <a href="http://newartistrealese.herokuapp.com" target="_blank" class="url-link-responsive">
+                                    <a href="http://newartistrealese.herokuapp.com" target="_blank"
+                                       class="url-link-responsive">
                                         To visit New Artist Release.
                                     </a>
                                 </p>
@@ -497,7 +545,8 @@
                                 </p>
                                 <p>
                                     <b>URL:</b>
-                                    <a href="http://188.166.172.38/employees/sign_in" target="_blank" class="url-link-responsive">
+                                    <a href="http://188.166.172.38/employees/sign_in" target="_blank"
+                                       class="url-link-responsive">
                                         To visit Tangail Enterprise.
                                     </a>
                                 </p>
@@ -526,7 +575,8 @@
                                 </p>
                                 <p>
                                     <b>URL:</b>
-                                    <a href="http://processflow.herokuapp.com/" target="_blank" class="url-link-responsive">
+                                    <a href="http://processflow.herokuapp.com/" target="_blank"
+                                       class="url-link-responsive">
                                         To visit Processflow.
                                     </a>
                                 </p>
@@ -590,7 +640,8 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/mahabub.ziko" target="_blank">
+                                        <a class="btn btn-default" href="https://www.facebook.com/mahabub.ziko"
+                                           target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                         <a class="btn btn-default" href="https://twitter.com/zikoku07" target="_blank">
@@ -600,7 +651,8 @@
                                            href="https://plus.google.com/100425517053881281580/posts" target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/mahabubziko07" target="_blank">
+                                        <a class="btn btn-default" href="https://www.linkedin.com/in/mahabubziko07"
+                                           target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -626,17 +678,20 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/mdnazrulislam.cse" target="_blank">
+                                        <a class="btn btn-default" href="https://www.facebook.com/mdnazrulislam.cse"
+                                           target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                         <a class="btn btn-default" href="#">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/106988509265910539148/posts" target="_blank">
+                                           href="https://plus.google.com/u/0/106988509265910539148/posts"
+                                           target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/nazrulcse07" target="_blank">
+                                        <a class="btn btn-default" href="https://www.linkedin.com/in/nazrulcse07"
+                                           target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -651,7 +706,8 @@
                 </div>
                 <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg" class="person-img img-responsive">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg"
+                             class="person-img img-responsive">
 
                         <div class="person-desc">
                             <div class="person-author team-person-desc">
@@ -690,7 +746,8 @@
             <div class="syftet-row clearfix">
                 <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/asad.png" class="person-img img-responsive">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/asad.png"
+                             class="person-img img-responsive">
 
                         <div class="person-desc">
                             <div class="person-author team-person-desc">
@@ -700,17 +757,21 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/plabon.asad" target="_blank">
+                                        <a class="btn btn-default" href="https://www.facebook.com/plabon.asad"
+                                           target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/Plabon_asad" target="_blank">
+                                        <a class="btn btn-default" href="https://twitter.com/Plabon_asad"
+                                           target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/103764686291338308269/posts" target="_blank">
+                                           href="https://plus.google.com/u/0/103764686291338308269/posts"
+                                           target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/asad-plabon-6880a7127" target="_blank">
+                                        <a class="btn btn-default"
+                                           href="https://www.linkedin.com/in/asad-plabon-6880a7127" target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -736,14 +797,17 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/tanvir.pias" target="_blank">
+                                        <a class="btn btn-default" href="https://www.facebook.com/tanvir.pias"
+                                           target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/pias221191" target="_blank">
+                                        <a class="btn btn-default" href="https://twitter.com/pias221191"
+                                           target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/108851144385462334066/posts" target="_blank">
+                                           href="https://plus.google.com/u/0/108851144385462334066/posts"
+                                           target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
                                         <a class="btn btn-default"
@@ -773,18 +837,22 @@
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/aburaihan.rubel.cse" target="_blank">
+                                        <a class="btn btn-default" href="https://www.facebook.com/aburaihan.rubel.cse"
+                                           target="_blank">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a class="btn btn-default" href="https://twitter.com/AbuRaihanRubel" target="_blank">
+                                        <a class="btn btn-default" href="https://twitter.com/AbuRaihanRubel"
+                                           target="_blank">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://plus.google.com/u/0/118308593010279249355/posts" target="_blank">
+                                           href="https://plus.google.com/u/0/118308593010279249355/posts"
+                                           target="_blank">
                                             <i class="fa fa-google"></i>
                                         </a>
                                         <a class="btn btn-default"
-                                           href="https://www.linkedin.com/in/abu-raihan-mohammad-rubel-7a4359105" target="_blank">
+                                           href="https://www.linkedin.com/in/abu-raihan-mohammad-rubel-7a4359105"
+                                           target="_blank">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>
@@ -902,9 +970,9 @@
             }
         });
 
-        $('.responsive-menu-logo a').click(function() {
+        $('.responsive-menu-logo a').click(function () {
             var menu = $('.menu');
-            if(menu.is(":visible")) {
+            if (menu.is(":visible")) {
                 menu.addClass('hidden-mobile');
                 $(this).find('i').removeClass('fa-times').addClass('fa-bars')
             }
@@ -913,6 +981,8 @@
                 $(this).find('i').addClass('fa-times').removeClass('fa-bars');
             }
         });
+
+
     });
 </script>
 </html>
