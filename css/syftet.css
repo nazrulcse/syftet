@@ -1070,6 +1070,7 @@ body{
     word-break: break-all;
     text-decoration: none !important;
     color: #A0CE4E;
+    cursor: pointer;
 }
 
 .padding-reset-left{

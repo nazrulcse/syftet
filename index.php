@@ -144,10 +144,11 @@
 
                             <p>
                                 To build a modern web application is daunting task. Ruby on Rails makes it much easier
-                                and more fun.
-                                It includes everything you need to build fantastic applications, and we have gratest
+                                and more fun. It includes everything you need to build fantastic applications, and we have a gratest
                                 Ruby on Rails team with friendly community.
                             </p>
+
+
                         </div>
                     </div>
                 </div>
@@ -249,8 +250,8 @@
                                     programming circles with disciples in Microsoft, Yahoo, LinkedIn and PayPal,
                                     developers have not only heard of the merits of "Node.js" but they’re either using
                                     or learning it now. There are many great reasons to use "Node.js", regardless of
-                                    experience level. Our Syftet team are waiting for developed your requirements as
-                                    soon as possible.
+                                    experience level thats why our Syftet team are waiting for developed your requirements as
+                                    soon as possible with the proper way.
                                 </p>
                             </div>
                         </div>
@@ -292,7 +293,7 @@
                                 </h2>
 
                                 <p>
-                                    A Good UX-UI Design experienced has highly conversion rates and more power to
+                                    A Good UI and UX Design experienced has highly conversion rates and more power to
                                     enrich their product. In other words, it's nice to both the business side as well as
                                     the people using it. In the Syftet we have some running idea list which we're
                                     actively testing and writing exclusive stories about it.
@@ -422,11 +423,12 @@
                                 </p>
 
                                 <p>
-                                    <b>URL:</b>
-                                    <a href="http://newartistrealese.herokuapp.com" target="_blank"
-                                       class="url-link-responsive">
-                                        To visit New Artist Release.
-                                    </a>
+                                    <b>
+                                        <a href="http://newartistrealese.herokuapp.com" target="_blank"
+                                           class="url-link-responsive">
+                                            Visit New Artist Release.
+                                        </a>
+                                    </b>
                                 </p>
 
                             </div>
@@ -456,10 +458,11 @@
                                 </p>
 
                                 <p>
-                                    <b>URL:</b>
-                                    <a href="https://www.shyftn.com" target="_blank" class="url-link-responsive">
-                                        To visit Shyftn.
-                                    </a>
+                                    <b>
+                                        <a href="https://www.shyftn.com" target="_blank" class="url-link-responsive">
+                                            Visit Shyftn.
+                                        </a>
+                                    </b>
                                 </p>
                             </div>
                         </div>
@@ -486,10 +489,12 @@
                                     Gateway
                                 </p>
                                 <p>
-                                    <b>URL:</b>
-                                    <a href="http://srclgroup.com" target="_blank" class="url-link-responsive">
-                                        To visit SRCL.
-                                    </a>
+                                    <b>
+                                        <a href="http://srclgroup.com" target="_blank" class="url-link-responsive">
+                                            Visit SRCL.
+                                        </a>
+                                    </b>
+
                                 </p>
 
                             </div>
@@ -516,10 +521,12 @@
                                 Gateway
                             </p>
                             <p>
-                                <b>URL:</b>
-                                <a href="http://mysalemyjob.com/" target="_blank" class="url-link-responsive">
-                                    To visit My Sales My Job.
-                                </a>
+                                <b>
+                                    <a href="http://mysalemyjob.com/" target="_blank" class="url-link-responsive">
+                                        Visit My Sales My Job.
+                                    </a>
+                                </b>
+
                             </p>
                         </div>
                     </div>
@@ -544,11 +551,12 @@
                                     Gateway
                                 </p>
                                 <p>
-                                    <b>URL:</b>
-                                    <a href="http://188.166.172.38/employees/sign_in" target="_blank"
-                                       class="url-link-responsive">
-                                        To visit Tangail Enterprise.
-                                    </a>
+                                    <b>
+                                        <a href="http://188.166.172.38/employees/sign_in" target="_blank"
+                                           class="url-link-responsive">
+                                            Visit Tangail Enterprise.
+                                        </a>
+                                    </b>
                                 </p>
                             </div>
                         </div>
@@ -574,11 +582,12 @@
                                     Gateway
                                 </p>
                                 <p>
-                                    <b>URL:</b>
-                                    <a href="http://processflow.herokuapp.com/" target="_blank"
-                                       class="url-link-responsive">
-                                        To visit Processflow.
-                                    </a>
+                                    <b>
+                                        <a href="http://processflow.herokuapp.com/" target="_blank"
+                                           class="url-link-responsive">
+                                            Visit Processflow.
+                                        </a>
+                                    </b>
                                 </p>
                             </div>
                         </div>
@@ -604,10 +613,11 @@
                                     Gateway
                                 </p>
                                 <p>
-                                    <b>URL:</b>
-                                    <a href="#" target="_blank" class="url-link-responsive">
-                                        To visit Romotiq.
-                                    </a>
+                                    <b>
+                                        <a href="#" target="_blank" class="url-link-responsive">
+                                            Visit Romotiq.
+                                        </a>
+                                    </b>
                                 </p>
                             </div>
                         </div>
