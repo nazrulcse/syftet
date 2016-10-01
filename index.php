@@ -3,6 +3,9 @@
 <head>
     <meta charshet="<?php bloginfo('charshet'); ?>">
     <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="description" content="Syftet is a fast growing software product and services company in Bangladesh.
+We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java, Android."/>
+    <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/images/syftet.ico" type="image/x-icon">
     <link href="<?php bloginfo('stylesheet'); ?>" rel="stylesheet"/>
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/syftet.css" rel="stylesheet"/>
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/team.css" rel="stylesheet"/>
@@ -11,11 +14,12 @@
           integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <!------------fonts stylesheet-------->
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_museo_slab_3.css" rel="stylesheet"/>
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_aleijadinho.css" rel="stylesheet"/>
     <link href="<?php echo esc_url(get_template_directory_uri()); ?>/css/fonts_conv_delicatesans_bold.css"
           rel="stylesheet"/>
+    <!------------Ends of fonts stylesheet-------->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <title>Syftet</title>
@@ -28,8 +32,7 @@
     <div class="header">
         <div class="header_logo">
             <a href="<?php bloginfo('home'); ?>">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet.png" alt="" title=""
-                     id="wows_0"/>
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet.png" id="wows_0"/>
             </a>
         </div>
         <div class="responsive-menu-logo">
@@ -37,14 +40,14 @@
                 <i class="fa fa-bars fa-2x"> </i>
             </a>
         </div>
-        <div class="menu hidden-mobile">
+        <div class="menu hidden-mobile" id="">
             <ul>
-                <li><a class="active" href="<?php bloginfo('home'); ?>">Home</a></li>
+                <li><a href="<?php bloginfo('home'); ?>">Home</a></li>
                 <li><a href="#recent-work"> Recent Work </a></li>
                 <li><a href="#our-service">Service</a></li>
+                <li><a href="#about-us">About Us</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#about-us">About Us</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
             </ul>
         </div>
@@ -84,29 +87,29 @@
                     <div class="content3_text">
                         <h2> Client feedback &amp; project success story.</h2>
                     </div>
-                    <div class="col-md-12 row">
-                        <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="counter text-center">
                                 <span class="counter_no">96%</span>
 
                                 <p class="">Project Success Rate</p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="counter text-center">
                                 <span class="counter_no">98%</span>
 
                                 <p class="counter_txt"> Client Positive Feedback </p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="counter text-center">
                                 <span class="counter_no">92%</span>
 
                                 <p class="counter_txt">Test Code Coverage</p>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="counter text-center">
                                 <span class="counter_no">12</span>
 
@@ -124,15 +127,14 @@
                     <div class="content4_text">
                         <h1>Our Services</h1>
 
-                        <p>Syftet’s powerful theme and meta options along with its unique structure lets you create any
-                            design style with just one theme. These simple yet powerful options allow you to create any
-                            type
-                            of website. No two versions of Syftet will ever look the same.</p>
+                        <p>
+                            We provide valuable services to make your life comfortable.
+                        </p>
                     </div>
                     <div class="separator"></div>
                 </div>
             </div>
-
+            
             <div class="syftet-row clearfix">
                 <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
@@ -141,14 +143,19 @@
                                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/ror.png">
                                 Ruby On Rails
                             </h2>
-
                             <p>
                                 To build a modern web application is daunting task. Ruby on Rails makes it much easier
                                 and more fun. It includes everything you need to build fantastic applications, and we have a gratest
                                 Ruby on Rails team with friendly community.
                             </p>
-
-
+<!--                            <p>-->
+<!--                                To build a modern web application is daunting task. Ruby on Rails makes it much easier-->
+<!--                                and more fun. <a class="read-more url-link-responsive"><b>Read More...</b></a>-->
+<!--                                <span class="read-more-hide">-->
+<!--                                    It includes everything you need to build fantastic applications, and we have a gratest-->
+<!--                                    Ruby on Rails team with friendly community.-->
+<!--                                </span>-->
+<!--                            </p>-->
                         </div>
                     </div>
                 </div>
@@ -161,11 +168,9 @@
                                         src="<?php echo esc_url(get_template_directory_uri()); ?>/images/service/php.png">
                                     PHP
                                 </h2>
-
                                 <p>
                                     Server scripting language PHP have more powerful tools that is especially suited for
-                                    web development.
-                                    It is a widely-used, free, and efficient alternative to competitors such as
+                                    web development. It is a widely-used, free, and efficient alternative to competitors such as
                                     Microsoft's ASP.
                                     We have an experienced team of PHP developers who have been working with different
                                     PHP frameworks
@@ -175,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 syftet-column-last">
+                <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-desc">
                             <div class="service-title">
@@ -186,12 +191,13 @@
                                 </h2>
 
                                 <p>
-                                    ".NET" can be used for any kind of app
-                                    type or workload where It has several key features that are attractive to many
+                                    ".NET" can be used for any kind of app type or workload where It has several
+                                    key features that are attractive to many
                                     developers, including automatic memory management and modern programming languages.
                                     Our team provide great experience for you in ASP.net applications from WebForms to
                                     different versions of MVC, WCF, WPF (web and mobile), EF, Web API.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -212,6 +218,7 @@
                                 security at its core. We will help you to give the freedom of mobility by developing
                                 mobile applications using iOS.
                             </p>
+
                         </div>
                     </div>
                 </div>
@@ -226,11 +233,12 @@
                                 </h2>
 
                                 <p>
-                                    Android is a mobile operating system developed by Google, based on the Linux kernel
-                                    and designed primarily for touchscreen mobile devices such as smartphones and
+                                    Android is a mobile operating system developed by Google, based on
+                                    the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and
                                     tablets. For developing Android application based on your requirements Our team here
-                                    now to give a best support.
+                                    now to give you a best support.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -250,9 +258,11 @@
                                     programming circles with disciples in Microsoft, Yahoo, LinkedIn and PayPal,
                                     developers have not only heard of the merits of "Node.js" but they’re either using
                                     or learning it now. There are many great reasons to use "Node.js", regardless of
-                                    experience level thats why our Syftet team are waiting for developed your requirements as
+                                    experience level thats why our Syftet team are waiting for developed your
+                                    requirements as
                                     soon as possible with the proper way.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -278,6 +288,7 @@
                                 unique
                                 development workflow and feature needs.
                             </p>
+
                         </div>
                     </div>
                 </div>
@@ -301,6 +312,7 @@
                                     which ideas work better and which ones less so. We hope this will make life easier
                                     for others.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -321,6 +333,7 @@
                                     product is 100% bug free. Syftet team of Test techniques include the process of
                                     executing a program or application with the intent of finding software bugs.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -343,6 +356,7 @@
                                 We worked different distributions of Linux in Amazon EC2, Linode, Rackspace, Heroku,
                                 GoDaddy, Brightbox and Site5.
                             </p>
+
                         </div>
                     </div>
                 </div>
@@ -363,40 +377,41 @@
                                     there for you to maintain it – fixing the issues, implement new features, version
                                     up-gradation and other necessary stuffs.
                                 </p>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content10">
-                <div class="container">
-                    <div class="content10_text">
-                        <h2>About Syftet</h2>
+            <section id="about-us">
+                <div class="content10">
+                    <div class="container">
+                        <div class="content10_text">
+                            <h2>About Syftet</h2>
 
-                        <p>
-                            Syftet is a first growing software product and services company in Bangladesh.
-                            Our journey started at 2016, But in the short time Syftet successfully track record of
-                            delivering innovative and cost-effective technical services to customers in both Corporate
-                            and public sectors. We follow agile methodologies for developing software.
-                            We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java,
-                                Android </b>
-                            Who wants to do that? We sure don’t. Syftet truly offers a quick, easy setup.
-                            Install the theme, click the demo content button and you receive a demo setup of pages,
-                            post, sliders,
-                            sidebars, widgets, theme options and more. It doesn’t get any easier, our demo content
-                            importer
-                            is a beautiful thing.
-                        </p>
+                            <p>
+                                Syftet is a fast growing software product and services company in Bangladesh.
+                                Our journey started at 2016, But in the short time Syftet successfully track record of
+                                delivering innovative and cost-effective technical services to customers in both Corporate
+                                and public sectors. We follow agile methodologies for developing software.
+                                We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java,
+                                    Android </b>.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
         </section>
 
         <section id="portfolio">
             <div class="content4_content container">
                 <div class="content2_header">
                     <h1>Portfolio</h1>
-                    <p>Making It The Most Trusted &amp; Complete WordPress Theme On The Market.</p>
+                    <p>
+                        These are the provided solutions for our respected clients. Our clients are happy
+                        so we are. Do you want some?
+                    </p>
                 </div>
                 <div class="separator"></div>
             </div>
@@ -424,7 +439,7 @@
 
                                 <p>
                                     <b>
-                                        <a href="http://newartistrealese.herokuapp.com" target="_blank"
+                                        <a href="http://192.81.216.169/" target="_blank"
                                            class="url-link-responsive">
                                             Visit New Artist Release.
                                         </a>
@@ -453,8 +468,8 @@
                                 </p>
 
                                 <p>
-                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
-                                    Gateway
+                                    <b>Technology:</b>
+                                    Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment Gateway
                                 </p>
 
                                 <p>
@@ -480,13 +495,13 @@
                                 <h2>SRCL Group</h2>
 
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel!
+                                    SRCL will be a leading provider of Environmental, Social and Economic consultancy
+                                    services to businesses within a broad range of different manufacturing and
+                                    commercial sectors.
                                 </p>
                                 <p>
-                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
-                                    Gateway
+                                    <b>Technology:</b> HTML5, CSS3, Bootstrap (responsive), Mysql, Java Script & JQuery,
+                                    Wordpress (CMS)
                                 </p>
                                 <p>
                                     <b>
@@ -513,12 +528,12 @@
                             <h2>My Sales My Job</h2>
 
                             <p>
-                                Syftet is 100% responsive, each and every element you see is fully responsive. And the
-                                responsive mode can easily be turned on or off in the theme options panel!
+                                My Sales My Job is an Ecommerce site which carry on a good income way to subscriber.
+                                It's as simple as that ....refferred lead buys a product and you get paid.
                             </p>
                             <p>
-                                <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
-                                Gateway
+                                <b>Technology:</b>
+                                Rubu on Rails, Mysql, HTML5, CSS3, Java Script & JQuery, Ajax
                             </p>
                             <p>
                                 <b>
@@ -540,14 +555,15 @@
                         <div class="person-desc">
                             <div class="person-author">
                                 <h2>Tangail Enterprise</h2>
-
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel!
+                                    Tangail Enterprise (ERP) is a category of business-management
+                                    software—typically a suite of integrated applications—that an organization can use
+                                    to collect, store, manage and interpret data from many business activities,
+                                    including: product planning, purchase. manufacturing or service delivery.
                                 </p>
                                 <p>
-                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    <b>Technology:</b>
+                                    Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
                                     Gateway
                                 </p>
                                 <p>
@@ -573,12 +589,12 @@
                                 <h2>Processflow</h2>
 
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel!
+                                    Processflow is a free open source project management tools HTML5 Layouts and more
+                                    easy and powerfull feature to manage project
                                 </p>
                                 <p>
-                                    <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
+                                    <b>Technology:</b>
+                                    Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
                                     Gateway
                                 </p>
                                 <p>
@@ -593,7 +609,8 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="syftet-row clearfix">
                 <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <div class="person-image-container">
@@ -604,9 +621,9 @@
                             <div class="person-author">
                                 <h2>Romotiq</h2>
                                 <p>
-                                    Syftet is 100% responsive, each and every element you see is fully responsive. And
-                                    the
-                                    responsive mode can easily be turned on or off in the theme options panel!
+                                    Romotiq Ltd. is a "true" business process outsourcing model whereby the sales team
+                                    is
+                                    exclusively recruited, trained, and managed for each client.
                                 </p>
                                 <p>
                                     <b>Technology:</b> Rubu on Rails, Sharetribe, Mysql, HTML5, Ajax, Braintree Payment
@@ -614,7 +631,7 @@
                                 </p>
                                 <p>
                                     <b>
-                                        <a href="#" target="_blank" class="url-link-responsive">
+                                        <a href="http://www.romotiq.com/" target="_blank" class="url-link-responsive">
                                             Visit Romotiq.
                                         </a>
                                     </b>
@@ -623,7 +640,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -631,7 +647,10 @@
             <div class="content4_content container">
                 <div class="content2_header">
                     <h1>Our Valueable Team</h1>
-                    <p>Making It The Most Trusted &amp; Complete WordPress Theme On The Market.</p>
+                    <p>
+                        So this is our team. Trust us, we can make you cry. And this is the tears of happiness not
+                        sadness.
+                    </p>
                 </div>
                 <div class="separator"></div>
             </div>
@@ -639,7 +658,7 @@
             <div class="syftet-row clearfix">
                 <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/ziko.png"
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/ziko.jpg"
                              class="person-img img-responsive">
 
                         <div class="team-person-desc">
@@ -677,14 +696,14 @@
                 </div>
                 <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/nazrul.png"
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/nazrul.jpg"
                              class="person-img img-responsive">
 
                         <div class="team-person-desc">
                             <div class="person-author">
                                 <div class="person-author-wrapper">
                                     <span class="person-name">Md Nazrul Islam</span><br>
-                                    <span class="person-title">Developer</span>
+                                    <span class="person-title">CEO & Co-founder</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
@@ -745,7 +764,7 @@
                                 </div>
                             </div>
                             <div class="person-content ">
-                                Mousumi Islam has completed his BSC in Accounting and Management
+                                Mousumi Islam has completed her Honours in Accounting and Management
                                 from B.L Collage Khulna, Bangladesh on 2016.
                             </div>
                         </div>
@@ -788,15 +807,17 @@
                                 </div>
                             </div>
                             <div class="person-content">
-                                Md. Asaduzzaman has completed his BSC in Mathematics
-                                from khulna university, Bangladesh on 2015.
+                                Plabon Asad Skillings is Developer of Syftet.
+                                As a software-developer, he has more than six months of training experience from
+                                Bangladesh Computer Council (BCC) & completing BSC from Mathematics Discipline, Khulna
+                                University of Bangladesh.
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/pias.png"
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/pias.jpg"
                              class="person-img img-responsive">
 
                         <div class="person-desc">
@@ -836,7 +857,7 @@
                 </div>
                 <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/rubel.png"
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/rubel.jpg"
                              class="person-img img-responsive">
 
                         <div class="team-person-desc">
@@ -887,15 +908,15 @@
             <div class="overlay" onClick="style.pointerEvents='none'"></div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5493680369705!2d90.36640315048066!3d23.834618291395113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c149ddd3e7d9%3A0xcd5e915ea87ad810!2sSyftet+IT!5e0!3m2!1sen!2sbd!4v1471338574462"
-                width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                width="100%" height="500" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
         </div>
-
         <div class="footer-warraper">
             <div class="container footer-section">
                 <div class="row">
                     <div class="col-md-4 footer-section-col-left">
-                        <img width="113" height="25" alt="logo_white_big"
-                             src="<?php echo esc_url(get_template_directory_uri()); ?>/images/logo_syftet_white.png">
+                        <img alt="logo_white_big"
+                             src="<?php echo esc_url(get_template_directory_uri()); ?>/images/syftet-logo-white.png">
                         <ul class="tweet company-address">
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-map-marker"></span>
@@ -927,13 +948,14 @@
 
                             <div class="footer-follow-us clearfix">
                                 <ul>
-                                    <a class="btn btn-default social-icon" href="https://www.facebook.com/syftetit">
+                                    <a class="btn btn-default social-icon" href="https://www.facebook.com/syftetit"
+                                       target="_blank">
                                         <li><i class="fa fa-facebook facebook-icon fa-lg"></i></li>
                                     </a>
-                                    <a class="btn btn-default social-icon" href="#">
+                                    <a class="btn btn-default social-icon" href="#" target="_blank">
                                         <li><i class="fa fa-twitter linkedin-icon fa-lg"></i></li>
                                     </a>
-                                    <a class="btn btn-default social-icon" href="#">
+                                    <a class="btn btn-default social-icon" href="#" target="_blank">
                                         <li><i class="fa fa-linkedin linkedin-icon fa-lg"></i></li>
                                     </a>
                                 </ul>
@@ -992,7 +1014,18 @@
             }
         });
 
+        $(".read-more").click(function () {
+            var paragraph = $(this).parent();
+            $(this).remove();
+            var element = paragraph.find("span");
+            element.before(element.html());
+            element.remove();
+        });
+
+        $()
+
 
     });
 </script>
+
 </html>

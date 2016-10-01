@@ -11,12 +11,11 @@ body{
 
 .header{
     background-color: #fff;
-    border-bottom-color: #e1e1e1;
+    border-bottom: 2px solid #fc0072;
     height: 70px;
     position: fixed;
     width: 100%;
     z-index: 5;
-    border-bottom: solid 2px #E0E1E3;
 }
 
 .header_logo{
@@ -59,6 +58,11 @@ body{
 
 .menu ul li a:hover{
     color: #ABD062;
+}
+
+#active-menu{
+    color: #ABD062;
+    border-bottom: 1px solid #ABD062;
 }
 
 
@@ -1031,11 +1035,6 @@ body{
     top:0;
 }
 
-.person-desc {
-    /*word-wrap: break-word;*/
-
-}
-
 .responsive-menu-logo {
     position: absolute;
     top: 20px;
@@ -1051,9 +1050,9 @@ body{
     color: #abd062;
 }
 
-.hidden-mobile {
-    display: block;
-}
+/*.hidden-mobile {*/
+    /*display: block;*/
+/*}*/
 
 .top-header-text {
     color: rgb(255, 255, 255);
@@ -1064,6 +1063,10 @@ body{
     right: 0;
     text-align: center;
     top: 40%;
+}
+
+.read-more-hide{
+    display: none;
 }
 
 .url-link-responsive{
@@ -1098,7 +1101,7 @@ body{
         padding-right: 12px;
     }
 
-    .menu ul li:last-child {}
+    /*.menu ul li:last-child {}*/
 
     .top-header-text {
         top: 30%;
@@ -1107,7 +1110,6 @@ body{
 }
 
 @media only screen and (max-width: 720px) {
-
     .top-header-text {
         top: 30%;
         font-size: 45px;
@@ -1148,4 +1150,18 @@ body{
     .menu ul li a:hover {
         border-bottom: 1px solid #abd062;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .content1 {
+        height: 500px;
+        background-attachment: inherit;
+    }
+    .overlay{
+        min-height: 400px;
+    }
+    .top-header-text{
+        font-size: 34px;
+    }
+
 }
