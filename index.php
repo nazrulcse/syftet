@@ -40,7 +40,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                 <i class="fa fa-bars fa-2x"> </i>
             </a>
         </div>
-        <div class="menu hidden-mobile" id="">
+        <div class="menu hidden-mobile">
             <ul>
                 <li><a href="<?php bloginfo('home'); ?>">Home</a></li>
                 <li><a href="#recent-work"> Recent Work </a></li>
@@ -807,7 +807,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                                 </div>
                             </div>
                             <div class="person-content">
-                                Plabon Asad Skillings is Developer of Syftet.
+                                Md. Asaduzzaman Skillings is Developer of Syftet.
                                 As a software-developer, he has more than six months of training experience from
                                 Bangladesh Computer Council (BCC) & completing BSC from Mathematics Discipline, Khulna
                                 University of Bangladesh.
@@ -850,7 +850,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                             </div>
                             <div class="person-content ">
                                 Tanvir Hassan Pias has completed his BSC in computer science and engineering
-                                from Mawlana Bhashani Science and Technology University, Bangladesh on 2015.
+                                from Mawlana Bhashani Science and Technology University, Bangladesh on 2014.
                             </div>
                         </div>
                     </div>
@@ -891,7 +891,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                             </div>
                             <div class="person-content ">
                                 Abu Raihan Rubel has completed his BSC in computer science and engineering
-                                from Mawlana Bhashani Science and Technology University, Bangladesh on 2015.
+                                from Mawlana Bhashani Science and Technology University, Bangladesh on 2014.
                             </div>
                         </div>
                     </div>
@@ -1006,7 +1006,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
             var menu = $('.menu');
             if (menu.is(":visible")) {
                 menu.addClass('hidden-mobile');
-                $(this).find('i').removeClass('fa-times').addClass('fa-bars')
+                $(this).find('i').removeClass('fa-times').addClass('fa-bars');
             }
             else {
                 menu.removeClass('hidden-mobile');
@@ -1014,16 +1014,15 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
             }
         });
 
-        $(".read-more").click(function () {
-            var paragraph = $(this).parent();
-            $(this).remove();
-            var element = paragraph.find("span");
-            element.before(element.html());
-            element.remove();
-        });
+///////////////////Read more button expand//////////////////
 
-        $()
-
+//        $(".read-more").click(function () {
+//            var paragraph = $(this).parent();
+//            $(this).remove();
+//            var element = paragraph.find("span");
+//            element.before(element.html());
+//            element.remove();
+//        });
 
     });
 </script>

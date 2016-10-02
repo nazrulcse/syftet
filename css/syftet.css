@@ -11,11 +11,11 @@ body{
 
 .header{
     background-color: #fff;
-    border-bottom: 2px solid #fc0072;
     height: 70px;
     position: fixed;
     width: 100%;
     z-index: 5;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .header_logo{
@@ -58,6 +58,7 @@ body{
 
 .menu ul li a:hover{
     color: #ABD062;
+    border-bottom: 1px solid #ABD062;
 }
 
 #active-menu{
@@ -1094,24 +1095,33 @@ body{
 }
 
 @media only screen and (max-width: 890px) {
+    .content1{
+        min-height: 500px;
+    }
+
+    .top-header-text {
+        font-size: 50px;
+    }
+
     .header_logo {
         padding-left: 10px;
     }
+
     .menu ul li {
         padding-right: 12px;
-    }
-
-    /*.menu ul li:last-child {}*/
-
-    .top-header-text {
-        top: 30%;
-        font-size: 50px;
     }
 }
 
 @media only screen and (max-width: 720px) {
+    .content1 {
+        height: 590px;
+        background-attachment: inherit;
+        background-size: cover;
+        background-position: 70% center;
+    }
+
     .top-header-text {
-        top: 30%;
+        top: 40%;
         font-size: 45px;
     }
 
@@ -1154,14 +1164,16 @@ body{
 
 @media only screen and (max-width: 480px) {
     .content1 {
-        height: 500px;
+        height: 400px;
         background-attachment: inherit;
+        background-size: cover;
+        background-position: 70% center;
     }
     .overlay{
         min-height: 400px;
     }
     .top-header-text{
         font-size: 34px;
+        top: 38%;
     }
-
 }
