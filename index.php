@@ -43,9 +43,9 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
         <div class="menu hidden-mobile">
             <ul>
                 <li><a href="<?php bloginfo('home'); ?>">Home</a></li>
-                <li><a href="#recent-work"> Recent Work </a></li>
-                <li><a href="#our-service">Service</a></li>
                 <li><a href="#about-us">About Us</a></li>
+                <li><a href="#our-service">Service</a></li>
+                <li><a href="#recent-work"> Recent Work </a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
@@ -63,24 +63,106 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                 Based on your requirements.
             </div>
         </div>
+        <section id="about-us">
+            <div class="content10x content-about-syftet">
+                <div class="container">
+                    <div class="content10_text">
+                        <h2>About Syftet</h2>
 
-        <section id="recent-work">
-            <div class="content2">
-                <div class="content2_content container">
-                    <div class="content2_header">
-                        <h1>Recent Works</h1>
-
-                        <p>Recently we are working on.</p>
-
-                    </div>
-                    <div class="separator"></div>
-                    <div class="content2_image">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/recent-works.png">
+                        <p>
+                            Syftet is a fast growing software product and services company in Bangladesh.
+                            Our journey started at 2016, But in the short time Syftet successfully track record of
+                            delivering innovative and cost-effective technical services to customers in both Corporate
+                            and public sectors. We follow agile methodologies for developing software.
+                            We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java,
+                                Android </b>.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="makes-us-unique">
+            <div class="content10">
+                <div class="container">
+                    <div class="make-us-unique-container content10_text">
+                        <h2>What Makes us UNIQUE?</h2>
+                        <div class="syftet-row clearfix">
+                            <div class="col-sm-4 syftet-layout-column">
+                                <div class="syftet-person">
+                                    <div class="service-title person-desc">
+                                        <h2>
+                                            <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/reliable.png">
+                                            Reliable
+                                        </h2>
+                                        <p>
+                                            Syftet is a renowned offshore company. We believe in building and maintaining long term relationships with all our clients.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 syftet-layout-column">
+                                <div class="syftet-person">
+                                    <div class="person-desc">
+                                        <div class="service-title">
+                                            <h2>
+                                                <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/solutions.png">
+                                                Solutions
+                                            </h2>
+                                            <p>
+                                                We endeavor to offer you best solutions in order to acquire your maximum
+                                                satisfaction. We are the masters in offering effective software
+                                                development solutions.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 syftet-layout-column syftet-column-last">
+                                <div class="syftet-person">
+                                    <div class="person-desc">
+                                        <div class="service-title">
+                                            <h2>
+                                                <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/experience.png">
+                                                Experience
+                                            </h2>
+
+                                            <p>
+                                                We are pioneer in lambasting problems like web or software development
+                                                etc. Our experts handle your assigned projects prudently.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="syftet-row clearfix">
+                            <div class="col-sm-4 syftet-layout-column">
+                                <div class="syftet-person">
+                                    <div class="service-title person-desc">
+                                        <h2>
+                                            <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/affordable1.png">
+                                            Affordable
+                                        </h2>
+
+                                        <p>
+                                            We have provided best plus affordable web development services to numerous
+                                            large as well as medium entrepreneurs. We provides comprehensive support for
+                                            software requirements and validation; process and workflow; change,
+                                            configuration and release management.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="client-feedback">
             <div class="content3">
                 <div class="container">
@@ -120,6 +202,46 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                 </div>
             </div>
         </section>
+
+<!--        <section id="client-feedback">-->
+<!--            <div class="content3">-->
+<!--                <div class="container">-->
+<!--                    <div class="content3_text">-->
+<!--                        <h2> Client feedback &amp; project success story.</h2>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-3 col-sm-6 col-xs-6">-->
+<!--                            <div class="counter text-center">-->
+<!--                                <span class="counter_no">96%</span>-->
+<!---->
+<!--                                <p class="">Project Success Rate</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-3 col-sm-6 col-xs-6">-->
+<!--                            <div class="counter text-center">-->
+<!--                                <span class="counter_no">98%</span>-->
+<!---->
+<!--                                <p class="counter_txt"> Client Positive Feedback </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-3 col-sm-6 col-xs-6">-->
+<!--                            <div class="counter text-center">-->
+<!--                                <span class="counter_no">92%</span>-->
+<!---->
+<!--                                <p class="counter_txt">Test Code Coverage</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-3 col-sm-6 col-xs-6">-->
+<!--                            <div class="counter text-center">-->
+<!--                                <span class="counter_no">12</span>-->
+<!---->
+<!--                                <p class="counter_txt">Project Completed</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
         <section id="our-service">
             <div class="content4">
@@ -383,25 +505,41 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                     </div>
                 </div>
             </div>
-            <section id="about-us">
-                <div class="content10">
-                    <div class="container">
-                        <div class="content10_text">
-                            <h2>About Syftet</h2>
+<!--            <section id="about-us">-->
+<!--                <div class="content10">-->
+<!--                    <div class="container">-->
+<!--                        <div class="content10_text">-->
+<!--                            <h2>About Syftet</h2>-->
+<!---->
+<!--                            <p>-->
+<!--                                Syftet is a fast growing software product and services company in Bangladesh.-->
+<!--                                Our journey started at 2016, But in the short time Syftet successfully track record of-->
+<!--                                delivering innovative and cost-effective technical services to customers in both Corporate-->
+<!--                                and public sectors. We follow agile methodologies for developing software.-->
+<!--                                We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java,-->
+<!--                                    Android </b>.-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
 
-                            <p>
-                                Syftet is a fast growing software product and services company in Bangladesh.
-                                Our journey started at 2016, But in the short time Syftet successfully track record of
-                                delivering innovative and cost-effective technical services to customers in both Corporate
-                                and public sectors. We follow agile methodologies for developing software.
-                                We have a team of talented engineer. We are expertise on <b> Ruby on Rails, .Net, PHP, Java,
-                                    Android </b>.
-                            </p>
-                        </div>
+        </section>
+        <section id="recent-work">
+            <div class="content2">
+                <div class="content2_content container">
+                    <div class="content2_header">
+                        <h1>Recent Works</h1>
+
+                        <p>Recently we are working on.</p>
+
+                    </div>
+                    <div class="separator"></div>
+                    <div class="content2_image">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/recent-works.png">
                     </div>
                 </div>
-            </section>
-
+            </div>
         </section>
 
         <section id="portfolio">
@@ -915,8 +1053,10 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
             <div class="container footer-section">
                 <div class="row">
                     <div class="col-md-4 footer-section-col-left">
-                        <img alt="logo_white_big"
-                             src="<?php echo esc_url(get_template_directory_uri()); ?>/images/syftet-logo-white.png">
+                        <a href="<?php bloginfo('home'); ?>">
+                            <img alt="logo_white_big"
+                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/images/syftet-logo-white.png">
+                        </a>
                         <ul class="tweet company-address">
                             <li>
                                 <span class="font_awesome3 jtwt_tweet fa fa-map-marker"></span>
@@ -970,7 +1110,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
             <div class="content19_content">
                 <div class="content_content19">
                     <div class="copy_right container text-center">
-                        Copyright &copy; 2016 Syftet Theme by Syftet | All Rights Reserved
+                        Copyright &copy; 2016 <a class="url-link-responsive" href="<?php bloginfo('home'); ?>">Syftet</a> | All Rights Reserved
                     </div>
 
                 </div>
