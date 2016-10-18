@@ -796,44 +796,6 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
             <div class="syftet-row clearfix">
                 <div class="col-sm-4 syftet-layout-column">
                     <div class="syftet-person">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/ziko.jpg"
-                             class="person-img img-responsive">
-
-                        <div class="team-person-desc">
-                            <div class="person-author">
-                                <div class="person-author-wrapper">
-                                    <span class="person-name">Md. Mahabubul Alam</span><br>
-                                    <span class="person-title">COO & Co-founder</span>
-                                </div>
-                                <div class="syftet-social-networks boxed-icons">
-                                    <div class="syftet-social-networks-wrapper">
-                                        <a class="btn btn-default" href="https://www.facebook.com/mahabub.ziko"
-                                           target="_blank">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                        <a class="btn btn-default" href="https://twitter.com/zikoku07" target="_blank">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a class="btn btn-default"
-                                           href="https://plus.google.com/100425517053881281580/posts" target="_blank">
-                                            <i class="fa fa-google"></i>
-                                        </a>
-                                        <a class="btn btn-default" href="https://www.linkedin.com/in/mahabubziko07"
-                                           target="_blank">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="person-content">
-                                Mahabubul alam has completed his BSC in computer science and engineering
-                                from khulna university, Bangladesh on 2011.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 syftet-layout-column">
-                    <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/nazrul.jpg"
                              class="person-img img-responsive">
 
@@ -841,7 +803,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                             <div class="person-author">
                                 <div class="person-author-wrapper">
                                     <span class="person-name">Md Nazrul Islam</span><br>
-                                    <span class="person-title">CEO & Co-founder</span>
+                                    <span class="person-title">CTO</span>
                                 </div>
                                 <div class="syftet-social-networks boxed-icons">
                                     <div class="syftet-social-networks-wrapper">
@@ -871,6 +833,46 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-4 syftet-layout-column">
+                    <div class="syftet-person">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/ziko.jpg"
+                             class="person-img img-responsive">
+
+                        <div class="team-person-desc">
+                            <div class="person-author">
+                                <div class="person-author-wrapper">
+                                    <span class="person-name">Md. Mahabubul Alam</span><br>
+                                    <span class="person-title">Team Lead</span>
+                                </div>
+                                <div class="syftet-social-networks boxed-icons">
+                                    <div class="syftet-social-networks-wrapper">
+                                        <a class="btn btn-default" href="https://www.facebook.com/mahabub.ziko"
+                                           target="_blank">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a class="btn btn-default" href="https://twitter.com/zikoku07" target="_blank">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a class="btn btn-default"
+                                           href="https://plus.google.com/100425517053881281580/posts" target="_blank">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                        <a class="btn btn-default" href="https://www.linkedin.com/in/mahabubziko07"
+                                           target="_blank">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="person-content">
+                                Mahabubul Alam has completed his BSC in computer science and engineering
+                                from khulna university, Bangladesh on 2011.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-sm-4 syftet-layout-column syftet-column-last">
                     <div class="syftet-person">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/team/hr.jpg"
