@@ -82,15 +82,15 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
             </div>
         </section>
 
-        <section id="makes-us-unique">
-            <div class="content10">
+        <section id="makes-us-unique-wrapper">
+            <div class="content-make-us-unique-container">
                 <div class="container">
                     <div class="make-us-unique-container content10_text">
                         <h2>What Makes us UNIQUE?</h2>
                         <div class="syftet-row clearfix">
                             <div class="col-sm-4 syftet-layout-column">
                                 <div class="syftet-person">
-                                    <div class="service-title person-desc">
+                                    <div class="service-title person-desc content-make-us-unique-item" >
                                         <h2>
                                             <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/reliable.png">
                                             Reliable
@@ -104,9 +104,9 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                             <div class="col-sm-4 syftet-layout-column">
                                 <div class="syftet-person">
                                     <div class="person-desc">
-                                        <div class="service-title">
+                                        <div class="service-title content-make-us-unique-item">
                                             <h2>
-                                                <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/solutions.png">
+                                                <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/solution.png">
                                                 Solutions
                                             </h2>
                                             <p>
@@ -121,7 +121,7 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                             <div class="col-sm-4 syftet-layout-column syftet-column-last">
                                 <div class="syftet-person">
                                     <div class="person-desc">
-                                        <div class="service-title">
+                                        <div class="service-title content-make-us-unique-item">
                                             <h2>
                                                 <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/experience.png">
                                                 Experience
@@ -141,9 +141,9 @@ We have a team of talented engineer expertise on Ruby on Rails, .Net, PHP, Java,
                         <div class="syftet-row clearfix">
                             <div class="col-sm-4 syftet-layout-column">
                                 <div class="syftet-person">
-                                    <div class="service-title person-desc">
+                                    <div class="service-title person-desc content-make-us-unique-item">
                                         <h2>
-                                            <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/affordable1.png">
+                                            <img src="<?php echo esc_url(get_template_directory_uri());?>/images/make_us_unique/affordable.png">
                                             Affordable
                                         </h2>
 

@@ -511,6 +511,18 @@ body{
     padding: 5px 0 50px;
 }
 
+.content-make-us-unique-container {
+    border-bottom: 1px solid #c6c6c6;
+    border-color: #c6c6c6;
+    border-top: 1px solid #c6c6c6;
+    padding: 5px 0 50px;
+}
+
+.content-make-us-unique-item h2 img {
+    width: 70px;
+}
+
+
 .content-about-syftet {
     padding: 5px 0 50px;
 }
